@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789563856975,
+      "tag": "0000_quickrouter_init",
+      "breakpoints": true
+    }
+  ]
+}

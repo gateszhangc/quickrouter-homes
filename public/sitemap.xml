@@ -1,15 +1,33 @@
-<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-domain.com/</loc>
-    <lastmod>2025-11-15T10:00:00+00:00</lastmod>
+    <loc>https://quickrouter.homes/</loc>
+    <lastmod>2026-09-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/blog</loc>
-    <lastmod>2025-11-15T10:00:00+00:00</lastmod>
+    <loc>https://quickrouter.homes/pricing</loc>
+    <lastmod>2026-09-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/showcases</loc>
-    <lastmod>2025-11-15T10:00:00+00:00</lastmod>
+    <loc>https://quickrouter.homes/privacy-policy</loc>
+    <lastmod>2026-09-28T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://quickrouter.homes/terms-of-service</loc>
+    <lastmod>2026-09-28T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://quickrouter.homes/refund-policy</loc>
+    <lastmod>2026-09-28T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

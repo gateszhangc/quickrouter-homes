@@ -37,6 +37,7 @@ COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 COPY --from=builder --chown=nextjs:nodejs /app/src/config/locale ./src/config/locale
+COPY --from=builder --chown=nextjs:nodejs /app/src/config/db/migrations ./src/config/db/migrations
 
 USER nextjs
 

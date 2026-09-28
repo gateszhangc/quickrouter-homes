@@ -1,6 +1,11 @@
 import '@/config/style/global.css';
 
-import { JetBrains_Mono, Merriweather, Noto_Sans_Mono } from 'next/font/google';
+import {
+  Figtree,
+  JetBrains_Mono,
+  Merriweather,
+  Noto_Sans_Mono,
+} from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
@@ -37,6 +42,13 @@ const jetbrainsMono = JetBrains_Mono({
   preload: true,
 });
 
+const figtree = Figtree({
+  subsets: ['latin'],
+  variable: '--font-figtree',
+  display: 'swap',
+  preload: true,
+});
+
 export const generateMetadata = getMetadata();
 
 export default async function LocaleLayout({
@@ -58,7 +70,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${notoSansMono.variable} ${merriweather.variable} ${jetbrainsMono.variable}`}
+      className={`${notoSansMono.variable} ${merriweather.variable} ${jetbrainsMono.variable} ${figtree.variable}`}
       suppressHydrationWarning
     >
       <head>

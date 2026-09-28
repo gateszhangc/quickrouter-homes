@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" role="img" aria-label="QuickRouter.AI mark">
+  <defs>
+    <linearGradient id="qr-tile" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#38BDF8" />
+    </linearGradient>
+  </defs>
+  <rect width="40" height="40" rx="12" fill="url(#qr-tile)" />
+  <g fill="none" stroke="#0B0418" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13.5 20h5.5" />
+    <path d="M19 20c3 0 3.5-9 8.5-9" />
+    <path d="M19 20h8.5" />
+    <path d="M19 20c3 0 3.5 9 8.5 9" />
+  </g>
+  <circle cx="11.5" cy="20" r="3.4" fill="#0B0418" />
+  <circle cx="29.5" cy="11" r="2.6" fill="#0B0418" />
+  <circle cx="29.5" cy="20" r="2.6" fill="#0B0418" />
+  <circle cx="29.5" cy="29" r="2.6" fill="#0B0418" />
+</svg>

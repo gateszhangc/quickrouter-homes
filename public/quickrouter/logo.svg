@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 48" width="260" height="48" role="img" aria-label="QuickRouter.AI">
+  <defs>
+    <linearGradient id="qr-tile" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="qr-word" x1="60" y1="0" x2="260" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4EFFF" />
+      <stop offset="1" stop-color="#BCE9FF" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="40" height="40" rx="12" fill="url(#qr-tile)" />
+  <g fill="none" stroke="#0B0418" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17.5 24h5.5" />
+    <path d="M23 24c3 0 3.5-9 8.5-9" />
+    <path d="M23 24h8.5" />
+    <path d="M23 24c3 0 3.5 9 8.5 9" />
+  </g>
+  <circle cx="15.5" cy="24" r="3.4" fill="#0B0418" />
+  <circle cx="33.5" cy="15" r="2.6" fill="#0B0418" />
+  <circle cx="33.5" cy="24" r="2.6" fill="#0B0418" />
+  <circle cx="33.5" cy="33" r="2.6" fill="#0B0418" />
+  <text x="58" y="31" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="23" font-weight="700" fill="url(#qr-word)" letter-spacing="-0.3">
+    QuickRouter.AI
+  </text>
+</svg>

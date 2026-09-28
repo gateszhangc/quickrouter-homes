@@ -1,22 +1,20 @@
 {
-  "name": "shipany-template-two",
+  "name": "quickrouter-homes",
   "version": "1.8.3",
   "private": true,
-  "author": "ShipAny.ai",
-  "homepage": "https://shipany.ai",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shipanyai/shipany-template-two"
-  },
+  "homepage": "https://quickrouter.homes",
   "keywords": [
-    "shipany",
-    "shipany-two",
-    "shipany-template-two",
-    "ai-saas-boilerplate",
-    "ai-saas-template",
-    "ai-saas-framework",
-    "ai-saas-development"
+    "llm-api",
+    "api-gateway",
+    "openai-compatible",
+    "claude",
+    "gemini",
+    "deepseek",
+    "grok",
+    "claude-code",
+    "base-url"
   ],
+  "description": "QuickRouter.AI - one OpenAI-compatible API gateway for OpenAI, Claude, Gemini, DeepSeek and Grok.",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

@@ -6,22 +6,23 @@ import packageJson from '../../package.json';
 export type ConfigMap = Record<string, string>;
 
 export const envConfigs: ConfigMap = {
-  app_url: process.env.NEXT_PUBLIC_APP_URL ?? 'https://falcon2.lol',
-  app_name: process.env.NEXT_PUBLIC_APP_NAME ?? 'Falcon 2',
+  app_url: process.env.NEXT_PUBLIC_APP_URL ?? 'https://quickrouter.homes',
+  app_name: process.env.NEXT_PUBLIC_APP_NAME ?? 'QuickRouter.AI',
   app_description:
     process.env.NEXT_PUBLIC_APP_DESCRIPTION ??
-    'Falcon 2 language model suite for multilingual and multimodal AI experiences.',
-  app_logo: process.env.NEXT_PUBLIC_APP_LOGO ?? '/falcon2-logo.svg',
-  app_favicon: process.env.NEXT_PUBLIC_APP_FAVICON ?? '/falcon2-favicon.svg',
+    'QuickRouter.AI is an LLM API gateway: one base URL and one API key for OpenAI, Claude, Gemini, DeepSeek and Grok.',
+  app_logo: process.env.NEXT_PUBLIC_APP_LOGO ?? '/quickrouter/mark.svg',
+  app_favicon: process.env.NEXT_PUBLIC_APP_FAVICON ?? '/quickrouter/favicon.svg',
   app_preview_image:
-    process.env.NEXT_PUBLIC_APP_PREVIEW_IMAGE ?? '/preview.png',
-  theme: process.env.NEXT_PUBLIC_THEME ?? 'falcon2',
+    process.env.NEXT_PUBLIC_APP_PREVIEW_IMAGE ?? '/quickrouter/preview.png',
+  theme: process.env.NEXT_PUBLIC_THEME ?? 'default',
   appearance: process.env.NEXT_PUBLIC_APPEARANCE ?? 'dark',
   locale: process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? 'en',
   database_url: process.env.DATABASE_URL ?? '',
   database_auth_token: process.env.DATABASE_AUTH_TOKEN ?? '',
   database_provider: process.env.DATABASE_PROVIDER ?? 'postgresql',
-  db_schema_file: process.env.DB_SCHEMA_FILE ?? './src/config/db/schema.ts',
+  db_schema_file:
+    process.env.DB_SCHEMA_FILE ?? './src/config/db/schema.postgres.ts',
   // PostgreSQL schema name (e.g. 'web'). Default: 'public'
   db_schema: process.env.DB_SCHEMA ?? 'public',
   // Drizzle migrations journal table name (avoid conflicts across projects)

@@ -1,15 +1,18 @@
 import { ReactNode } from 'react';
 
-import '@/config/style/falcon2.css';
+import '@/config/style/quickrouter.css';
 
-import { FalconFooter, FalconHeader } from '@/shared/blocks/falcon2/site';
+import {
+  QuickRouterFooter,
+  QuickRouterHeader,
+} from '@/shared/blocks/quickrouter/site';
 
 export default function LandingLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="gen-shell">
-      <FalconHeader />
+    <div className="qr-shell">
+      <QuickRouterHeader />
       {children}
-      <FalconFooter />
+      <QuickRouterFooter />
     </div>
   );
 }

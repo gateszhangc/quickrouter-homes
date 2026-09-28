@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180" role="img" aria-label="QuickRouter.AI">
+  <defs>
+    <linearGradient id="qr-touch-tile" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#38BDF8" />
+    </linearGradient>
+    <radialGradient id="qr-touch-glow" cx="0.2" cy="0.1" r="0.9">
+      <stop offset="0" stop-color="#A855FF" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#A855FF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="180" height="180" fill="#090D18" />
+  <rect width="180" height="180" fill="url(#qr-touch-glow)" />
+  <rect x="26" y="26" width="128" height="128" rx="36" fill="url(#qr-touch-tile)" />
+  <g fill="none" stroke="#0B0418" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M74 90h14" />
+    <path d="M88 90c8 0 9-22 23-22" />
+    <path d="M88 90h23" />
+    <path d="M88 90c8 0 9 22 23 22" />
+  </g>
+  <circle cx="68" cy="90" r="9" fill="#0B0418" />
+  <circle cx="119" cy="68" r="7" fill="#0B0418" />
+  <circle cx="119" cy="90" r="7" fill="#0B0418" />
+  <circle cx="119" cy="112" r="7" fill="#0B0418" />
+</svg>

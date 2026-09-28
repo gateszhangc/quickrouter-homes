@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="QuickRouter.AI - one API key for 400+ LLMs">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#090D18" />
+      <stop offset="0.55" stop-color="#0F061C" />
+      <stop offset="1" stop-color="#12071F" />
+    </linearGradient>
+    <radialGradient id="glow-v" cx="0.18" cy="0.1" r="0.75">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-b" cx="0.92" cy="0.95" r="0.7">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.42" />
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="88" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="cta" x1="0" y1="0" x2="340" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#38BDF8" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#glow-v)" />
+  <rect width="1200" height="630" fill="url(#glow-b)" />
+  <rect x="0.5" y="0.5" width="1199" height="629" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" />
+
+  <g transform="translate(88 84)">
+    <rect width="88" height="88" rx="26" fill="url(#tile)" />
+    <g fill="none" stroke="#0B0418" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M33 44h12" />
+      <path d="M45 44c7 0 8-20 20-20" />
+      <path d="M45 44h20" />
+      <path d="M45 44c7 0 8 20 20 20" />
+    </g>
+    <circle cx="28" cy="44" r="7.6" fill="#0B0418" />
+    <circle cx="65" cy="24" r="5.8" fill="#0B0418" />
+    <circle cx="65" cy="44" r="5.8" fill="#0B0418" />
+    <circle cx="65" cy="64" r="5.8" fill="#0B0418" />
+  </g>
+
+  <text x="200" y="152" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#F4EFFF" letter-spacing="-0.5">QuickRouter.AI</text>
+
+  <text x="88" y="292" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="70" font-weight="800" fill="#F4EFFF" letter-spacing="-1.6">One API key for</text>
+  <text x="88" y="372" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="70" font-weight="800" fill="#8FE3FF" letter-spacing="-1.6">400+ LLMs</text>
+
+  <text x="88" y="430" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="27" fill="#B9ACCE">OpenAI · Claude · Gemini · DeepSeek · Grok behind one base URL</text>
+
+  <g transform="translate(88 486)">
+    <rect width="336" height="62" rx="31" fill="url(#cta)" />
+    <text x="42" y="40" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#0B0418">Start free</text>
+    <path d="M246 31h20M258 22l9 9-9 9" fill="none" stroke="#0B0418" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <g transform="translate(88 566)">
+    <text x="0" y="18" font-family="Menlo, SFMono-Regular, monospace" font-size="21" fill="#8F849F">base_url = https://api.quickrouter.homes/v1</text>
+  </g>
+
+  <g transform="translate(760 500)">
+    <rect width="352" height="86" rx="22" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12" />
+    <text x="26" y="38" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#F4EFFF">Free credit on signup</text>
+    <text x="26" y="66" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" fill="#B9ACCE">First call in about 3 minutes</text>
+  </g>
+</svg>

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "ShipAny Template Two",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Ship Fast with a variety of templates and components.",
-    "keywords": "shipany, shipany-boilerplate, shipany-template-two-demo"
+    "title": "QuickRouter.AI - LLM API gateway for 400+ models",
+    "description": "One OpenAI-compatible base URL and API key for OpenAI, Claude, Gemini, DeepSeek, Grok and 400+ models. Usage at list prices, free credit on signup.",
+    "keywords": "llm api gateway, openai compatible api, claude api, gemini api, deepseek api, grok api, base url, api key, claude code"
   },
   "sign": {
     "sign_in_title": "Sign In",
