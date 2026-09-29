@@ -2,16 +2,19 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Menu, X } from 'lucide-react';
+import { Loader2, Menu, X } from 'lucide-react';
+import { toast } from 'sonner';
 
+import { SignModal } from '@/shared/blocks/sign/sign-modal';
+import { useAppContext } from '@/shared/contexts/app';
 import { QuickRouterBrand, QuickRouterNav, FooterColumns } from './content';
 
 /**
  * Single entry point for every primary call to action.
  *
- * Sign-in and the subscription gate are intentionally not wired yet: this round
- * ships the marketing surface, so the action routes to the pricing page. When the
- * auth round lands, this component is the only place that has to change.
+ * Signed out -> Google sign-in dialog. Signed in with an active plan -> home.
+ * Signed in without a plan -> /pricing. The billing backend stays untouched:
+ * this only reads what the subscription tables already know.
  */
 export function QuickRouterAction({
   children,
@@ -21,15 +24,85 @@ export function QuickRouterAction({
   className?: string;
 }) {
   const router = useRouter();
+  const { user, isCheckSign, setIsShowSignModal } = useAppContext();
+  const [loading, setLoading] = useState(false);
+
+  const act = async () => {
+    if (loading || isCheckSign) return;
+
+    if (!user) {
+      setIsShowSignModal(true);
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const response = await fetch('/api/user/get-subscription', {
+        method: 'POST',
+      });
+      if (response.status === 401 || response.status === 403) {
+        setIsShowSignModal(true);
+        return;
+      }
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok || result?.code !== 0) {
+        throw new Error(result?.message || 'Unable to check your plan');
+      }
+      router.push(result?.data?.subscribed ? '/' : '/pricing');
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : 'Please try again');
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <button
       type="button"
       className={className}
-      onClick={() => router.push('/pricing')}
+      disabled={loading || isCheckSign}
+      onClick={act}
     >
-      {children}
+      {loading ? (
+        <>
+          <Loader2 aria-hidden="true" className="qr-spin" />
+          Checking plan
+        </>
+      ) : (
+        children
+      )}
     </button>
+  );
+}
+
+function AccountEntry({ compact = false }: { compact?: boolean }) {
+  const { user, isCheckSign, setIsShowSignModal } = useAppContext();
+
+  if (isCheckSign) return null;
+
+  if (!user) {
+    return (
+      <button
+        type="button"
+        className={compact ? 'qr-signin qr-signin-compact' : 'qr-signin'}
+        onClick={() => setIsShowSignModal(true)}
+      >
+        Sign in
+      </button>
+    );
+  }
+
+  const label = (user.name || user.email || 'Account').trim();
+
+  return (
+    <a
+      className="qr-account"
+      href="/settings/billing"
+      title={user.email || label}
+      aria-label={`Account: ${label}`}
+    >
+      <span aria-hidden="true">{label.slice(0, 1).toUpperCase()}</span>
+    </a>
   );
 }
 
@@ -51,6 +124,7 @@ export function QuickRouterHeader() {
           ))}
         </nav>
         <div className="qr-nav-actions">
+          <AccountEntry />
           <QuickRouterAction className="qr-button qr-button-primary">
             Get started
           </QuickRouterAction>
@@ -72,11 +146,13 @@ export function QuickRouterHeader() {
               {item.label}
             </a>
           ))}
+          <AccountEntry compact />
           <QuickRouterAction className="qr-button qr-button-primary">
             Get started
           </QuickRouterAction>
         </div>
       )}
+      <SignModal googleOnly className="qr-sign-dialog" />
     </header>
   );
 }

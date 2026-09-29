@@ -29,10 +29,15 @@ editing any SVG in `public/quickrouter`.
 
 ## CTA behaviour
 
-Every primary call to action runs through `QuickRouterAction`. This round ships
-the marketing surface, so the action routes to `/pricing`. When the auth round
-lands it becomes: signed out -> Google sign-in dialog, signed in with an active
-plan -> home, signed in without a plan -> `/pricing`.
+Every primary call to action runs through `QuickRouterAction`:
+
+1. signed out -> Google sign-in dialog
+2. signed in without an active subscription -> `/pricing`
+3. signed in with an active subscription -> the home page
+
+The gate reads `/api/user/get-subscription`; the billing backend is untouched.
+Sign-in is Google-only (`GOOGLE_AUTH_ENABLED=true` plus the OAuth client in the
+deploy environment) and the modal is themed with `.qr-sign-dialog`.
 
 ## Checks
 
