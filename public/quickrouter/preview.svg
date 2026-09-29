@@ -51,7 +51,7 @@
 
   <g transform="translate(88 486)">
     <rect width="336" height="62" rx="31" fill="url(#cta)" />
-    <text x="42" y="40" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#0B0418">Start free</text>
+    <text x="42" y="40" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="25" font-weight="700" fill="#0B0418">Get started</text>
     <path d="M246 31h20M258 22l9 9-9 9" fill="none" stroke="#0B0418" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
   </g>
 
@@ -61,7 +61,7 @@
 
   <g transform="translate(760 500)">
     <rect width="352" height="86" rx="22" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.12" />
-    <text x="26" y="38" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#F4EFFF">Free credit on signup</text>
+    <text x="26" y="38" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#F4EFFF">Plans from $19 / month</text>
     <text x="26" y="66" font-family="Figtree, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" fill="#B9ACCE">First call in about 3 minutes</text>
   </g>
 </svg>

@@ -73,19 +73,19 @@ export const PricingCards = [
     cta: { label: 'Top up balance', href: '/pricing' },
   },
   {
-    name: 'Free trial',
-    subtitle: 'Free credit on signup',
-    price: '$0',
-    unit: 'starter credit',
+    name: 'Starter',
+    subtitle: 'From $19 / month',
+    price: '$19',
+    unit: 'per month',
     featured: true,
     badge: 'Recommended',
     features: [
-      'Free credit the moment you sign up',
-      'Run a real request in about 3 minutes',
+      'One API key across 400+ models',
       'OpenAI-compatible base URL',
-      'Upgrade only when you ship',
+      'Usage billed at upstream list price',
+      'Cancel any time from the console',
     ],
-    cta: { label: 'Start free', href: '/pricing' },
+    cta: { label: 'Choose Starter', href: '/pricing' },
   },
   {
     name: 'Enterprise',
@@ -313,8 +313,8 @@ export const Testimonials = [
 
 export const Faq = [
   [
-    'Can the free credit run a real test?',
-    'Yes. Every new account gets starter credit that is enough for a first round of API calls, so you can validate the base URL, the key and your SDK wiring before you top up.',
+    'How much does it cost to start?',
+    'Gateway plans start at $19 per month. Model usage is billed at the upstream list price of whichever model you call, so validating a base URL, a key and your SDK wiring costs a fraction of a cent.',
   ],
   [
     'Who do I contact when a tool will not connect?',
@@ -353,7 +353,7 @@ export const FooterColumns = [
       { label: 'Pricing', href: '/pricing' },
       { label: 'Model prices', href: '/#model-prices' },
       { label: 'Setup guide', href: '/#setup' },
-      { label: 'Free trial', href: '/pricing' },
+      { label: 'Plans', href: '/pricing' },
     ],
   },
   {

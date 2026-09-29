@@ -11,7 +11,7 @@ export const generateMetadata = getMetadata({
   title:
     'QuickRouter.AI - LLM API gateway for OpenAI, Claude, Gemini, DeepSeek and Grok',
   description:
-    'One OpenAI-compatible base URL and API key for 400+ large language models. High-speed gateway, list-price usage, free credit on signup, Claude Code and Cursor ready.',
+    'One OpenAI-compatible base URL and API key for 400+ large language models. High-speed gateway, usage billed at upstream list prices, Claude Code and Cursor ready.',
   keywords:
     'llm api gateway, openai api, claude api, gemini api, deepseek api, grok api, openai compatible base url, claude code api key, cursor api, one api key',
   canonicalUrl: '/',
@@ -56,9 +56,11 @@ export default async function LandingPage({
           'OpenAI-compatible API gateway for 400+ large language models with usage-based billing.',
         offers: {
           '@type': 'Offer',
-          price: '0',
+          price: '19',
           priceCurrency: 'USD',
-          description: 'Free starter credit, then usage-based list pricing.',
+          url: `${appUrl}/pricing`,
+          description:
+            'Gateway plans from $19 per month; model usage is billed at upstream list prices.',
         },
       },
       {

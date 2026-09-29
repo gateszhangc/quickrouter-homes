@@ -77,7 +77,7 @@ export function QuickRouterHome() {
           </p>
           <div className="qr-hero-actions">
             <QuickRouterAction className="qr-button qr-button-primary">
-              Start free
+              Get started
               <ArrowRight aria-hidden="true" />
             </QuickRouterAction>
             <a className="qr-button qr-button-ghost" href="#model-prices">
@@ -392,14 +392,14 @@ export function QuickRouterHome() {
 
       <section className="qr-cta">
         <div className="qr-container">
-          <h2>Start free and make the first call in 3 minutes</h2>
+          <h2>Create your API key and make the first call in 3 minutes</h2>
           <p>
-            Create an account, copy your API key and point your base URL at{' '}
-            {QuickRouterBrand.name}. No monthly fee, no card required to test.
+            Create an account, pick a plan, copy your API key and point your
+            base URL at {QuickRouterBrand.name}.
           </p>
           <div className="qr-cta-actions">
             <QuickRouterAction className="qr-button qr-button-primary">
-              Start free
+              Get started
               <ArrowRight aria-hidden="true" />
             </QuickRouterAction>
             <a className="qr-button qr-button-ghost" href="/pricing">

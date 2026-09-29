@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "QuickRouter.AI - LLM API gateway for 400+ models",
-    "description": "One OpenAI-compatible base URL and API key for OpenAI, Claude, Gemini, DeepSeek, Grok and 400+ models. Usage at list prices, free credit on signup.",
+    "description": "One OpenAI-compatible base URL and API key for OpenAI, Claude, Gemini, DeepSeek, Grok and 400+ models. Pay only for what you use, billed at upstream list prices.",
     "keywords": "llm api gateway, openai compatible api, claude api, gemini api, deepseek api, grok api, base url, api key, claude code"
   },
   "sign": {

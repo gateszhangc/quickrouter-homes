@@ -22,7 +22,7 @@ const pages = [
       'id="faq"',
       'Claude Code',
       'api.quickrouter.homes/v1',
-      'Start free',
+      'Get started',
     ],
   },
   {
@@ -54,6 +54,9 @@ const sectionOrder = [
   'id="faq"',
 ];
 
+// The site sells paid gateway plans only: no free tier, no free credit claims.
+const banned = [/free/i];
+
 let failures = 0;
 const internalLinks = new Set();
 
@@ -72,6 +75,11 @@ for (const page of pages) {
   const missing = page.probes.filter((probe) => !html.includes(probe));
   if (missing.length) fail(`${page.path} missing copy: ${missing.join(', ')}`);
   else console.log(`ok   ${page.path} (${page.probes.length} probes)`);
+
+  for (const pattern of banned) {
+    const hit = html.match(pattern);
+    if (hit) fail(`${page.path} still contains banned wording "${hit[0]}"`);
+  }
 
   if (page.path === '/') {
     const positions = sectionOrder.map((probe) => html.indexOf(probe));

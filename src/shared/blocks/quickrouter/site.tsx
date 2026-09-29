@@ -52,7 +52,7 @@ export function QuickRouterHeader() {
         </nav>
         <div className="qr-nav-actions">
           <QuickRouterAction className="qr-button qr-button-primary">
-            Start free
+            Get started
           </QuickRouterAction>
         </div>
         <button
@@ -73,7 +73,7 @@ export function QuickRouterHeader() {
             </a>
           ))}
           <QuickRouterAction className="qr-button qr-button-primary">
-            Start free
+            Get started
           </QuickRouterAction>
         </div>
       )}
