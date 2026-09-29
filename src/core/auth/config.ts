@@ -24,6 +24,52 @@ import { grantRoleForNewUser } from '@/shared/services/rbac';
 const recentVerificationEmailSentAt = new Map<string, number>();
 const VERIFICATION_EMAIL_MIN_INTERVAL_MS = 60_000;
 
+/**
+ * better-auth hands the drizzle adapter epoch milliseconds for every date field
+ * it manages (verification, session and account rows), while a Postgres
+ * `timestamp` column only accepts a Date or an ISO string - the raw number
+ * reaches postgres.js and the insert dies with ERR_INVALID_ARG_TYPE.
+ *
+ * Normalise the values in the database hooks so every write path stores real
+ * timestamps. Strings and Dates already coming from other callers pass through
+ * untouched.
+ */
+const AUTH_DATE_FIELDS = [
+  'expiresAt',
+  'createdAt',
+  'updatedAt',
+  'accessTokenExpiresAt',
+  'refreshTokenExpiresAt',
+];
+
+function normalizeAuthDates<T extends Record<string, any>>(data: T): T {
+  if (!data || typeof data !== 'object') return data;
+
+  for (const field of AUTH_DATE_FIELDS) {
+    const value = (data as Record<string, any>)[field];
+    if (typeof value === 'number' && Number.isFinite(value)) {
+      (data as Record<string, any>)[field] = new Date(value);
+    }
+  }
+
+  return data;
+}
+
+function dateNormalisingHooks() {
+  const normalize = async (data: any) => ({
+    data: normalizeAuthDates({ ...(data || {}) }),
+  });
+
+  return {
+    session: { create: { before: normalize }, update: { before: normalize } },
+    account: { create: { before: normalize }, update: { before: normalize } },
+    verification: {
+      create: { before: normalize },
+      update: { before: normalize },
+    },
+  };
+}
+
 // Static auth options - NO database connection
 // This ensures zero database calls during build time
 const authOptions = {
@@ -91,6 +137,8 @@ export async function getAuthOptions(configs: Record<string, string>) {
         create: {
           before: async (user: any, ctx: any) => {
             try {
+              normalizeAuthDates(user);
+
               const ip = await getClientIp();
               if (ip) {
                 user.ip = ip;
@@ -148,6 +196,7 @@ export async function getAuthOptions(configs: Record<string, string>) {
           },
         },
       },
+      ...dateNormalisingHooks(),
     },
     emailAndPassword: {
       enabled: configs.email_auth_enabled !== 'false',
