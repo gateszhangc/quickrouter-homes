@@ -8,6 +8,7 @@ import { toast } from 'sonner';
 import { SignModal } from '@/shared/blocks/sign/sign-modal';
 import { useAppContext } from '@/shared/contexts/app';
 import { QuickRouterBrand, QuickRouterNav, FooterColumns } from './content';
+import { QuickRouterSession } from './session';
 
 /**
  * Single entry point for every primary call to action.
@@ -111,6 +112,7 @@ export function QuickRouterHeader() {
 
   return (
     <header className="qr-header">
+      <QuickRouterSession />
       <div className="qr-nav">
         <a className="qr-logo" href="/" aria-label={`${QuickRouterBrand.name} home`}>
           <img src="/quickrouter/mark.svg" alt="" aria-hidden="true" />
