@@ -6,13 +6,20 @@ import {
   QuickRouterFooter,
   QuickRouterHeader,
 } from '@/shared/blocks/quickrouter/site';
+import { getDirectoryBadges } from '@/shared/lib/directory-badges';
 
-export default function LandingLayout({ children }: { children: ReactNode }) {
+export default async function LandingLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
+  const directoryBadges = await getDirectoryBadges();
+
   return (
     <div className="qr-shell">
       <QuickRouterHeader />
       {children}
-      <QuickRouterFooter />
+      <QuickRouterFooter badges={directoryBadges} />
     </div>
   );
 }

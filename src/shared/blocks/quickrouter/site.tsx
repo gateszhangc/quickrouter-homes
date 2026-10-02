@@ -7,7 +7,9 @@ import { toast } from 'sonner';
 
 import { SignModal } from '@/shared/blocks/sign/sign-modal';
 import { useAppContext } from '@/shared/contexts/app';
+import type { DirectoryBadge } from '@/shared/lib/directory-badges';
 import { QuickRouterBrand, QuickRouterNav, FooterColumns } from './content';
+import { FooterDirectoryBadges } from './footer-directory-badges';
 import { QuickRouterSession } from './session';
 
 /**
@@ -159,7 +161,11 @@ export function QuickRouterHeader() {
   );
 }
 
-export function QuickRouterFooter() {
+export function QuickRouterFooter({
+  badges = [],
+}: {
+  badges?: DirectoryBadge[];
+}) {
   return (
     <footer className="qr-footer">
       <div className="qr-footer-top">
@@ -187,6 +193,7 @@ export function QuickRouterFooter() {
           </div>
         ))}
       </div>
+      <FooterDirectoryBadges badges={badges} />
       <div className="qr-footer-bottom">
         <span>
           © {new Date().getFullYear()} {QuickRouterBrand.name}. All rights
