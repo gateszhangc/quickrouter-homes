@@ -7,9 +7,9 @@ import { getMetadata } from '@/shared/lib/seo';
 export const revalidate = 3600;
 
 export const generateMetadata = getMetadata({
-  title: 'Privacy Policy - QuickRouter.AI',
+  title: 'Privacy Policy - QuickRouter',
   description:
-    'What QuickRouter.AI collects, how request metadata and billing data are used, which sub-processors are involved and how to exercise your data rights.',
+    'What QuickRouter collects, how request metadata and billing data are used, which sub-processors are involved and how to exercise your data rights.',
   canonicalUrl: '/privacy-policy',
 });
 

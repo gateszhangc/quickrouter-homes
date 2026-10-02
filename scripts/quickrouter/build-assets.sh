@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Regenerate the QuickRouter.AI raster assets from the vector sources.
+# Regenerate the QuickRouter raster assets from the vector sources.
 #
 # The mark, wordmark and social preview are authored as SVG; this script turns
 # them into the PNG/ICO files that browsers, iOS and social crawlers expect.

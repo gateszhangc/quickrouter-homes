@@ -14,7 +14,7 @@
     "claude-code",
     "base-url"
   ],
-  "description": "QuickRouter.AI - one OpenAI-compatible API gateway for OpenAI, Claude, Gemini, DeepSeek and Grok.",
+  "description": "QuickRouter - one OpenAI-compatible API gateway for OpenAI, Claude, Gemini, DeepSeek and Grok.",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

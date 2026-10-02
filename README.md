@@ -1,4 +1,4 @@
-# QuickRouter.AI (quickrouter.homes)
+# QuickRouter (quickrouter.homes)
 
 The site behind [quickrouter.homes](https://quickrouter.homes) - an English
 marketing surface for an LLM API gateway that puts OpenAI, Claude, Gemini,

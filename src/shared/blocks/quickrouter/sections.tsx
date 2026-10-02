@@ -36,6 +36,11 @@ import {
 
 const stepIcons = [KeyRound, Terminal, Plug, Rocket];
 
+/** DevTools names map one-to-one onto the /docs/<slug> guide routes. */
+function guideHref(tool: string) {
+  return `/docs/${tool.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
+}
+
 export function QuickRouterHome() {
   const [vendor, setVendor] = useState<string>('All models');
   const [tool, setTool] = useState<string>(DevTools[0].name);
@@ -230,7 +235,13 @@ export function QuickRouterHome() {
                 {filteredModels.map((row) => (
                   <tr key={`${row.vendor}-${row.model}`}>
                     <td>{row.vendor}</td>
-                    <td className="qr-table-model">{row.model}</td>
+                    <td className="qr-table-model">
+                      {row.slug ? (
+                        <a href={`/models/${row.slug}`}>{row.model}</a>
+                      ) : (
+                        row.model
+                      )}
+                    </td>
                     <td>{row.context}</td>
                     <td>{row.input}</td>
                     <td>{row.output}</td>
@@ -239,6 +250,12 @@ export function QuickRouterHome() {
               </tbody>
             </table>
           </div>
+          <p className="qr-more-link">
+            <a href="/models">
+              Every model price, with worked cost examples
+              <ArrowRight aria-hidden="true" />
+            </a>
+          </p>
         </div>
       </section>
 
@@ -394,6 +411,16 @@ export function QuickRouterHome() {
               </article>
             ))}
           </div>
+          <p className="qr-more-link">
+            <a href={guideHref(activeTool.name)}>
+              Full {activeTool.name} setup guide
+              <ArrowRight aria-hidden="true" />
+            </a>
+            <a href="/docs">
+              All setup guides
+              <ArrowRight aria-hidden="true" />
+            </a>
+          </p>
         </div>
       </section>
 
@@ -453,6 +480,12 @@ export function QuickRouterHome() {
               </details>
             ))}
           </div>
+          <p className="qr-more-link">
+            <a href="/what-is-an-llm-api-gateway">
+              What is an LLM API gateway? Read the full explainer
+              <ArrowRight aria-hidden="true" />
+            </a>
+          </p>
         </div>
       </section>
 

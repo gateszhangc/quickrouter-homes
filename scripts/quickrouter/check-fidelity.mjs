@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Copy and link checks for the QuickRouter.AI marketing surface.
+ * Copy and link checks for the QuickRouter marketing surface.
  *
  * Usage: node scripts/quickrouter/check-fidelity.mjs [baseUrl]
  * Defaults to http://localhost:3100 so it can run against `pnpm dev` or
@@ -13,7 +13,7 @@ const pages = [
   {
     path: '/',
     probes: [
-      'QuickRouter.AI',
+      'QuickRouter',
       'One API key',
       'id="pricing"',
       'id="model-prices"',
@@ -34,7 +34,7 @@ const pages = [
   },
   {
     path: '/privacy-policy',
-    probes: ['Privacy Policy', 'QuickRouter.AI', 'Back to'],
+    probes: ['Privacy Policy', 'QuickRouter', 'Back to'],
   },
   {
     path: '/terms-of-service',

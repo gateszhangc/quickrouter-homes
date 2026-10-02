@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Pricing - QuickRouter.AI gateway plans",
-    "description": "QuickRouter.AI pricing: Starter, Pro and Elite gateway plans billed monthly or yearly through Stripe, plus usage-based model spend at upstream list prices."
+    "title": "Pricing - QuickRouter gateway plans",
+    "description": "QuickRouter pricing: Starter, Pro and Elite gateway plans billed monthly or yearly through Stripe, plus usage-based model spend at upstream list prices."
   },
   "page": {
     "title": "Plans and pricing",
@@ -47,7 +47,7 @@
               "icon": "RiFlashlightFill"
             },
             "product_id": "qr-starter-monthly",
-            "product_name": "QuickRouter.AI Starter Monthly",
+            "product_name": "QuickRouter Starter Monthly",
             "credits": 0,
             "valid_days": 30,
             "group": "monthly",
@@ -78,7 +78,7 @@
               "icon": "RiFlashlightFill"
             },
             "product_id": "qr-pro-monthly",
-            "product_name": "QuickRouter.AI Pro Monthly",
+            "product_name": "QuickRouter Pro Monthly",
             "credits": 0,
             "valid_days": 30,
             "group": "monthly",
@@ -109,7 +109,7 @@
               "icon": "RiFlashlightFill"
             },
             "product_id": "qr-elite-monthly",
-            "product_name": "QuickRouter.AI Elite Monthly",
+            "product_name": "QuickRouter Elite Monthly",
             "credits": 0,
             "valid_days": 30,
             "group": "monthly",
@@ -139,7 +139,7 @@
               "icon": "RiFlashlightFill"
             },
             "product_id": "qr-starter-yearly",
-            "product_name": "QuickRouter.AI Starter Yearly",
+            "product_name": "QuickRouter Starter Yearly",
             "credits": 0,
             "valid_days": 365,
             "group": "yearly",
@@ -170,7 +170,7 @@
               "icon": "RiFlashlightFill"
             },
             "product_id": "qr-pro-yearly",
-            "product_name": "QuickRouter.AI Pro Yearly",
+            "product_name": "QuickRouter Pro Yearly",
             "credits": 0,
             "valid_days": 365,
             "group": "yearly",
@@ -201,7 +201,7 @@
               "icon": "RiFlashlightFill"
             },
             "product_id": "qr-elite-yearly",
-            "product_name": "QuickRouter.AI Elite Yearly",
+            "product_name": "QuickRouter Elite Yearly",
             "credits": 0,
             "valid_days": 365,
             "group": "yearly",

@@ -12,7 +12,7 @@ import { setRequestLocale } from 'next-intl/server';
 import NextTopLoader from 'nextjs-toploader';
 
 import { envConfigs } from '@/config';
-import { locales } from '@/config/locale';
+import { defaultLocale, locales } from '@/config/locale';
 import { routing } from '@/core/i18n/config';
 import { ThemeProvider } from '@/core/theme/provider';
 import { UtmCapture } from '@/shared/blocks/common/utm-capture';
@@ -88,6 +88,11 @@ export default async function LocaleLayout({
               />
             ))
           : null}
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href={`${appUrl}${defaultLocale === 'en' ? '' : `/${defaultLocale}`}`}
+        />
 
 
 

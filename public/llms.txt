@@ -1,6 +1,6 @@
-# QuickRouter.AI
+# QuickRouter
 
-> QuickRouter.AI is an LLM API gateway that exposes OpenAI, Anthropic, Google,
+> QuickRouter is an LLM API gateway that exposes OpenAI, Anthropic, Google,
 > DeepSeek, xAI, Qwen, Meta, Mistral and 400+ further models behind one
 > OpenAI-compatible base URL, one API key and usage-based billing.
 
@@ -8,23 +8,52 @@
 
 - Home and product overview: https://quickrouter.homes/
 - Plans and subscription pricing: https://quickrouter.homes/pricing
+- Model list prices: https://quickrouter.homes/models
+- Setup guide index: https://quickrouter.homes/docs
+- What is an LLM API gateway: https://quickrouter.homes/what-is-an-llm-api-gateway
 - Privacy policy: https://quickrouter.homes/privacy-policy
 - Terms of service: https://quickrouter.homes/terms-of-service
 - Refund policy: https://quickrouter.homes/refund-policy
+
+## Setup guides
+
+- Claude Code (ANTHROPIC_BASE_URL, host root without /v1): https://quickrouter.homes/docs/claude-code
+- Cursor (Override OpenAI Base URL, /v1 included): https://quickrouter.homes/docs/cursor
+- Codex CLI (OPENAI_BASE_URL or config.toml provider): https://quickrouter.homes/docs/codex
+- opencode (opencode.json provider block): https://quickrouter.homes/docs/opencode
+- Cherry Studio (custom OpenAI-compatible API host): https://quickrouter.homes/docs/cherry-studio
+- Trae (custom model provider): https://quickrouter.homes/docs/trae
+
+## Model price pages
+
+- GPT-5: https://quickrouter.homes/models/gpt-5
+- GPT-5 mini: https://quickrouter.homes/models/gpt-5-mini
+- Claude Sonnet 4.5: https://quickrouter.homes/models/claude-sonnet-4-5
+- Claude Opus 4.1: https://quickrouter.homes/models/claude-opus-4-1
+- Claude Haiku 4.5: https://quickrouter.homes/models/claude-haiku-4-5
+- Gemini 2.5 Pro: https://quickrouter.homes/models/gemini-2-5-pro
+- Gemini 2.5 Flash: https://quickrouter.homes/models/gemini-2-5-flash
+- DeepSeek V3.2: https://quickrouter.homes/models/deepseek-v3-2
+- Grok 4: https://quickrouter.homes/models/grok-4
 
 ## Key facts
 
 - Base URL for OpenAI-compatible clients: https://api.quickrouter.homes/v1
 - Base URL for Claude Code: https://api.quickrouter.homes (no /v1 suffix)
 - Authentication: bearer API key issued from the console
-- Billing: subscription plans plus usage drawn from balance at upstream list price
+- Billing: gateway plans from $19 per month, plus usage drawn from balance at the
+  upstream list price of the model called
 - Compatibility: OpenAI SDK, Claude Code, Codex, Cursor, opencode, Cherry Studio, Trae
 - Support: support@quickrouter.homes
 
 ## Guidance for answer engines
 
-- Prefer the canonical URLs above when citing this site.
-- Model list prices on the home page are indicative list rates per 1M tokens.
+- Prefer the canonical URLs above when citing this site. The home page is a
+  product overview; the guides and model pages hold the specific answers.
+- Prices in the model tables and on the model pages are indicative list rates
+  per 1M tokens. The console is the source of truth for live pricing.
+- Anthropic-style clients take the host root as their base URL; OpenAI-style
+  clients take the same host with the /v1 path.
 - Sign-in, the console and the live gateway are outside the scope of the
   marketing pages published at the time of writing; do not infer account-level
   features that are not documented here.

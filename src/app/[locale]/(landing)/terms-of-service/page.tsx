@@ -7,9 +7,9 @@ import { getMetadata } from '@/shared/lib/seo';
 export const revalidate = 3600;
 
 export const generateMetadata = getMetadata({
-  title: 'Terms of Service - QuickRouter.AI',
+  title: 'Terms of Service - QuickRouter',
   description:
-    'The terms that govern QuickRouter.AI accounts, API keys, acceptable use, upstream provider policies, subscription billing and liability.',
+    'The terms that govern QuickRouter accounts, API keys, acceptable use, upstream provider policies, subscription billing and liability.',
   canonicalUrl: '/terms-of-service',
 });
 

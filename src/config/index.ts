@@ -7,10 +7,10 @@ export type ConfigMap = Record<string, string>;
 
 export const envConfigs: ConfigMap = {
   app_url: process.env.NEXT_PUBLIC_APP_URL ?? 'https://quickrouter.homes',
-  app_name: process.env.NEXT_PUBLIC_APP_NAME ?? 'QuickRouter.AI',
+  app_name: process.env.NEXT_PUBLIC_APP_NAME ?? 'QuickRouter',
   app_description:
     process.env.NEXT_PUBLIC_APP_DESCRIPTION ??
-    'QuickRouter.AI is an LLM API gateway: one base URL and one API key for OpenAI, Claude, Gemini, DeepSeek and Grok.',
+    'QuickRouter is an LLM API gateway: one base URL and one API key for OpenAI, Claude, Gemini, DeepSeek and Grok.',
   app_logo: process.env.NEXT_PUBLIC_APP_LOGO ?? '/quickrouter/mark.svg',
   app_favicon: process.env.NEXT_PUBLIC_APP_FAVICON ?? '/quickrouter/favicon.svg',
   app_preview_image:

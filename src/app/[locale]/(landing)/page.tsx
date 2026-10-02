@@ -9,7 +9,7 @@ export const revalidate = 3600;
 
 export const generateMetadata = getMetadata({
   title:
-    'QuickRouter.AI - LLM API gateway for OpenAI, Claude, Gemini, DeepSeek and Grok',
+    'QuickRouter - LLM API gateway for OpenAI, Claude, Gemini, DeepSeek and Grok',
   description:
     'One OpenAI-compatible base URL and API key for 400+ large language models. High-speed gateway, usage billed at upstream list prices, Claude Code and Cursor ready.',
   keywords:
