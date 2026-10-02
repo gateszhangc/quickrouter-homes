@@ -88,8 +88,9 @@ export function normalizeDirectoryBadges(input: unknown): DirectoryBadge[] {
       continue;
     }
 
-    // a sibling product's listing page is not a listing for this site
-    if (FOREIGN_PRODUCT_PATTERN.test(href)) {
+    // a sibling product's listing page is not a listing for this site, and a
+    // badge generated for that product would render its name here
+    if (FOREIGN_PRODUCT_PATTERN.test(`${href} ${label} ${title} ${imageSrc}`)) {
       continue;
     }
 

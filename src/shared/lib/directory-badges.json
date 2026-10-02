@@ -2,115 +2,66 @@
   "version": 1,
   "badges": [
     {
+      "label": "Featured on aat.ee",
+      "href": "https://www.aat.ee/?ref=badge",
+      "title": "Featured on aat.ee",
+      "imageSrc": "https://www.aat.ee/images/badges/featured-badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
       "label": "Featured on Acid Tools",
       "href": "https://acidtools.com",
-      "title": "Acid Tools",
+      "title": "Featured on Acid Tools",
       "imageSrc": "https://acidtools.com/assets/images/badge.png",
       "rel": "noopener noreferrer"
     },
     {
       "label": "Featured on AI Tech Viral",
       "href": "https://aitechviral.com",
-      "title": "AI Tech Viral",
+      "title": "Featured on AI Tech Viral",
       "imageSrc": "https://aitechviral.com/assets/images/badge.png",
       "rel": "noopener noreferrer"
     },
     {
       "label": "Featured on AI Toolz",
       "href": "https://aitoolzs.com",
-      "title": "AI Toolz",
+      "title": "Featured on AI Toolz",
       "imageSrc": "https://aitoolzs.com/assets/images/badge.png",
       "rel": "noopener noreferrer"
     },
     {
       "label": "Featured on AI X Collection",
       "href": "https://aixcollection.com",
-      "title": "AI X Collection",
+      "title": "Featured on AI X Collection",
       "imageSrc": "https://aixcollection.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Aidirs",
+      "href": "https://aidirs.best",
+      "title": "Featured on Aidirs",
+      "imageSrc": "https://aidirs.best/light.svg",
+      "rel": "noopener"
+    },
+    {
+      "label": "Featured on aifinder.site",
+      "href": "https://aifinder.site",
+      "title": "Featured on aifinder.site",
+      "imageSrc": "https://www.aifinder.site/light-badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on aifinderplus.com",
+      "href": "https://aifinderplus.com",
+      "title": "Featured on aifinderplus.com",
+      "imageSrc": "https://aifinderplus.com/badge.svg",
       "rel": "noopener noreferrer"
     },
     {
       "label": "Featured on AIGC 160",
       "href": "https://aigc160.com",
-      "title": "AIGC 160",
+      "title": "Featured on AIGC 160",
       "imageSrc": "https://aigc160.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on App Hub List",
-      "href": "https://apphublist.com",
-      "title": "App Hub List",
-      "imageSrc": "https://apphublist.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on App Networker",
-      "href": "https://appnetworker.com",
-      "title": "App Networker",
-      "imageSrc": "https://appnetworker.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Appa List",
-      "href": "https://appalist.com",
-      "title": "Appa List",
-      "imageSrc": "https://appalist.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Appsy Tools",
-      "href": "https://appsytools.com",
-      "title": "Appsy Tools",
-      "imageSrc": "https://appsytools.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Ash List",
-      "href": "https://ashlist.com",
-      "title": "Ash List",
-      "imageSrc": "https://ashlist.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Beam Tools",
-      "href": "https://beamtools.com",
-      "title": "Beam Tools",
-      "imageSrc": "https://beamtools.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Best Tool Vault",
-      "href": "https://besttoolvault.com",
-      "title": "Best Tool Vault",
-      "imageSrc": "https://besttoolvault.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Discover more AI tools at aifinder.site",
-      "href": "https://aifinder.site",
-      "title": "Discover more AI tools at aifinder.site",
-      "imageSrc": "https://www.aifinder.site/light-badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Fazier badge",
-      "href": "https://fazier.com",
-      "title": "Fazier badge",
-      "imageSrc": "https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Feature On aifinderplus.com",
-      "href": "https://aifinderplus.com",
-      "title": "Feature On aifinderplus.com",
-      "imageSrc": "https://aifinderplus.com/badge.svg",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on aat.ee",
-      "href": "https://www.aat.ee/?ref=badge",
-      "title": "Featured on aat.ee",
-      "imageSrc": "https://www.aat.ee/images/badges/featured-badge-light.svg",
       "rel": "noopener noreferrer"
     },
     {
@@ -142,11 +93,46 @@
       "rel": "noopener noreferrer"
     },
     {
+      "label": "Featured on App Hub List",
+      "href": "https://apphublist.com",
+      "title": "Featured on App Hub List",
+      "imageSrc": "https://apphublist.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on App Networker",
+      "href": "https://appnetworker.com",
+      "title": "Featured on App Networker",
+      "imageSrc": "https://appnetworker.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Appa List",
+      "href": "https://appalist.com",
+      "title": "Featured on Appa List",
+      "imageSrc": "https://appalist.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Appsy Tools",
+      "href": "https://appsytools.com",
+      "title": "Featured on Appsy Tools",
+      "imageSrc": "https://appsytools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
       "label": "Featured on Artificin",
       "href": "https://artificin.com?utm_source=badge&utm_medium=referral&utm_campaign=featured_badge",
-      "title": "Artificin AI Tools Directory",
+      "title": "Featured on Artificin",
       "imageSrc": "https://artificin.com/badges/Artificin-badge.png",
       "rel": "noopener"
+    },
+    {
+      "label": "Featured on Ash List",
+      "href": "https://ashlist.com",
+      "title": "Featured on Ash List",
+      "imageSrc": "https://ashlist.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
     },
     {
       "label": "Featured on Aura++",
@@ -156,11 +142,25 @@
       "rel": "noopener noreferrer"
     },
     {
+      "label": "Featured on Beam Tools",
+      "href": "https://beamtools.com",
+      "title": "Featured on Beam Tools",
+      "imageSrc": "https://beamtools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
       "label": "Featured on Best Free AI Tools",
       "href": "https://bestfreeai.tools",
-      "title": "Best Free AI Tools Directory",
+      "title": "Featured on Best Free AI Tools",
       "imageSrc": "https://bestfreeai.tools/badges/best-free-ai-tools.png",
       "rel": "dofollow noopener"
+    },
+    {
+      "label": "Featured on Best Tool Vault",
+      "href": "https://besttoolvault.com",
+      "title": "Featured on Best Tool Vault",
+      "imageSrc": "https://besttoolvault.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
     },
     {
       "label": "Featured on BestskyTools",
@@ -198,6 +198,13 @@
       "rel": "noopener noreferrer"
     },
     {
+      "label": "Featured on Fazier",
+      "href": "https://fazier.com",
+      "title": "Featured on Fazier",
+      "imageSrc": "https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light",
+      "rel": "noopener noreferrer"
+    },
+    {
       "label": "Featured on Findly.tools",
       "href": "https://findly.tools",
       "title": "Featured on Findly.tools",
@@ -212,6 +219,20 @@
       "rel": "noopener noreferrer"
     },
     {
+      "label": "Featured on Good AI Tools",
+      "href": "https://goodaitools.com",
+      "title": "Featured on Good AI Tools",
+      "imageSrc": "https://goodaitools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Hunt for Tools",
+      "href": "https://huntfortools.com",
+      "title": "Featured on Hunt for Tools",
+      "imageSrc": "https://huntfortools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
       "label": "Featured on IndieHunt",
       "href": "https://indiehunt.io",
       "title": "Featured on IndieHunt",
@@ -219,10 +240,24 @@
       "rel": "noopener noreferrer"
     },
     {
-      "label": "Featured on LaunchIgniter",
-      "href": "https://launchigniter.com",
-      "title": "Featured on LaunchIgniter",
-      "imageSrc": "https://launchigniter.com/api/badge/mirofish-1?theme=light",
+      "label": "Featured on Latest AI Updates",
+      "href": "https://latestaiupdates.com",
+      "title": "Featured on Latest AI Updates",
+      "imageSrc": "https://latestaiupdates.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Launch Scroll",
+      "href": "https://launchscroll.com",
+      "title": "Featured on Launch Scroll",
+      "imageSrc": "https://launchscroll.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on LaunchClash",
+      "href": "https://launchclash.com",
+      "title": "Featured on LaunchClash",
+      "imageSrc": "https://launchclash.com/assets/images/badge.png",
       "rel": "noopener noreferrer"
     },
     {
@@ -233,9 +268,30 @@
       "rel": "noopener noreferrer"
     },
     {
-      "label": "Featured on NavifyAI.com - AI Tools Directory",
+      "label": "Featured on Million Dot Homepage",
+      "href": "https://milliondothomepage.com",
+      "title": "Featured on Million Dot Homepage",
+      "imageSrc": "https://milliondothomepage.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on My Launch Stash",
+      "href": "https://mylaunchstash.com",
+      "title": "Featured on My Launch Stash",
+      "imageSrc": "https://mylaunchstash.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on My Start Tools",
+      "href": "https://mystarttools.com",
+      "title": "Featured on My Start Tools",
+      "imageSrc": "https://mystarttools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on NavifyAI.com",
       "href": "https://navifyai.com/",
-      "title": "Featured on NavifyAI.com - AI Tools Directory",
+      "title": "Featured on NavifyAI.com",
       "imageSrc": "https://navifyai.com/static/img/badge-dark.svg",
       "rel": "noopener noreferrer"
     },
@@ -254,10 +310,38 @@
       "rel": "noopener noreferrer"
     },
     {
+      "label": "Featured on Nick Launches",
+      "href": "https://nicklaunches.com",
+      "title": "Featured on Nick Launches",
+      "imageSrc": "https://nicklaunches.com/badges/featured.png",
+      "rel": "noopener noreferrer"
+    },
+    {
       "label": "Featured on PopWebTools",
       "href": "https://www.popwebtools.com",
       "title": "Featured on PopWebTools",
       "imageSrc": "https://www.popwebtools.com/images/featured-badge-light.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Power Up Tools",
+      "href": "https://poweruptools.com",
+      "title": "Featured on Power Up Tools",
+      "imageSrc": "https://poweruptools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Product List Dir",
+      "href": "https://productlistdir.com",
+      "title": "Featured on Product List Dir",
+      "imageSrc": "https://productlistdir.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Product Wing",
+      "href": "https://productwing.com",
+      "title": "Featured on Product Wing",
+      "imageSrc": "https://productwing.com/assets/images/badge.png",
       "rel": "noopener noreferrer"
     },
     {
@@ -268,6 +352,90 @@
       "rel": "noopener noreferrer"
     },
     {
+      "label": "Featured on ProductWatch",
+      "href": "https://productwatch.io",
+      "title": "Featured on ProductWatch",
+      "imageSrc": "https://productwatch.io/backend/api/v1/badge/featured?productId=eec69c58-6f8a-44b7-8b83-666d06f94914&darkMode=false",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on SaaS",
+      "href": "https://saasbadge.com",
+      "title": "Featured on SaaS",
+      "imageSrc": "https://saasbadge.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on SaaS Avenue",
+      "href": "https://saasavenue.com",
+      "title": "Featured on SaaS Avenue",
+      "imageSrc": "https://saasavenue.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on SaaS Branch",
+      "href": "https://saasbranch.com",
+      "title": "Featured on SaaS Branch",
+      "imageSrc": "https://saasbranch.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on SaaS Crawler",
+      "href": "https://saascrawler.com",
+      "title": "Featured on SaaS Crawler",
+      "imageSrc": "https://saascrawler.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on SaaS Field",
+      "href": "https://saasfield.com",
+      "title": "Featured on SaaS Field",
+      "imageSrc": "https://saasfield.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on SaaS Networker",
+      "href": "https://saasnetworker.com",
+      "title": "Featured on SaaS Networker",
+      "imageSrc": "https://saasnetworker.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on SaaS Roots",
+      "href": "https://saasroots.com",
+      "title": "Featured on SaaS Roots",
+      "imageSrc": "https://saasroots.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on SaaS Scanner",
+      "href": "https://saasscanner.com",
+      "title": "Featured on SaaS Scanner",
+      "imageSrc": "https://saasscanner.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on SaaS State",
+      "href": "https://saasstate.com",
+      "title": "Featured on SaaS State",
+      "imageSrc": "https://saasstate.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on SaaS Territory",
+      "href": "https://saasterritory.com",
+      "title": "Featured on SaaS Territory",
+      "imageSrc": "https://saasterritory.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on SaaS Wheel",
+      "href": "https://saaswheel.com",
+      "title": "Featured on SaaS Wheel",
+      "imageSrc": "https://saaswheel.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
       "label": "Featured on saasfame.com",
       "href": "https://saasfame.com",
       "title": "Featured on saasfame.com",
@@ -275,10 +443,24 @@
       "rel": "noopener noreferrer"
     },
     {
+      "label": "Featured on SaaSGrow",
+      "href": "https://saasgrow.app",
+      "title": "Featured on SaaSGrow",
+      "imageSrc": "https://saasgrow.app/api/badge?type=featured&style=light",
+      "rel": "noopener"
+    },
+    {
       "label": "Featured on SaaSTool.site",
       "href": "https://saastool.site",
       "title": "Featured on SaaSTool.site",
       "imageSrc": "https://saastool.site/badges/saastool-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on ShinyLaunch",
+      "href": "https://shinylaunch.com",
+      "title": "Featured on ShinyLaunch",
+      "imageSrc": "https://shinylaunch.com/assets/images/badge.png",
       "rel": "noopener noreferrer"
     },
     {
@@ -317,10 +499,192 @@
       "rel": "noopener noreferrer"
     },
     {
+      "label": "Featured on Smart Kit Hub",
+      "href": "https://smartkithub.com",
+      "title": "Featured on Smart Kit Hub",
+      "imageSrc": "https://smartkithub.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
       "label": "Featured on Smol Launch",
       "href": "https://smollaunch.com",
       "title": "Featured on Smol Launch",
       "imageSrc": "https://smollaunch.com/badges/featured.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Software Bolt",
+      "href": "https://softwarebolt.com",
+      "title": "Featured on Software Bolt",
+      "imageSrc": "https://softwarebolt.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Solver Tools",
+      "href": "https://solvertools.com",
+      "title": "Featured on Solver Tools",
+      "imageSrc": "https://solvertools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Source Dir",
+      "href": "https://sourcedir.com",
+      "title": "Featured on Source Dir",
+      "imageSrc": "https://sourcedir.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Stack Directory",
+      "href": "https://stackdirectory.com",
+      "title": "Featured on Stack Directory",
+      "imageSrc": "https://stackdirectory.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Startup AIdeas",
+      "href": "https://startupaideas.com",
+      "title": "Featured on Startup AIdeas",
+      "imageSrc": "https://startupaideas.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Startup Benchmarks",
+      "href": "https://startupbenchmarks.com",
+      "title": "Featured on Startup Benchmarks",
+      "imageSrc": "https://startupbenchmarks.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Startup Vessel",
+      "href": "https://startupvessel.com",
+      "title": "Featured on Startup Vessel",
+      "imageSrc": "https://startupvessel.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on StartupTrusted",
+      "href": "https://startuptrusted.com",
+      "title": "Featured on StartupTrusted",
+      "imageSrc": "https://startuptrusted.com/api/badge?type=featured&style=light",
+      "rel": "noopener"
+    },
+    {
+      "label": "Featured on Submit AI Tools",
+      "href": "https://submitaitools.org",
+      "title": "Featured on Submit AI Tools",
+      "imageSrc": "https://submitaitools.org/static_submitaitools/images/submitaitools.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Super AI Boom",
+      "href": "https://superaiboom.com",
+      "title": "Featured on Super AI Boom",
+      "imageSrc": "https://superaiboom.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on That App Show",
+      "href": "https://thatappshow.com",
+      "title": "Featured on That App Show",
+      "imageSrc": "https://thatappshow.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on The App Tools",
+      "href": "https://theapptools.com",
+      "title": "Featured on The App Tools",
+      "imageSrc": "https://theapptools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on The Core Tools",
+      "href": "https://thecoretools.com",
+      "title": "Featured on The Core Tools",
+      "imageSrc": "https://thecoretools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on The Key Tools",
+      "href": "https://thekeytools.com",
+      "title": "Featured on The Key Tools",
+      "imageSrc": "https://thekeytools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on The Mega Tools",
+      "href": "https://themegatools.com",
+      "title": "Featured on The Mega Tools",
+      "imageSrc": "https://themegatools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Tiny Tool Hub",
+      "href": "https://tinytoolhub.com",
+      "title": "Featured on Tiny Tool Hub",
+      "imageSrc": "https://tinytoolhub.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Tool Cosmos",
+      "href": "https://toolcosmos.com",
+      "title": "Featured on Tool Cosmos",
+      "imageSrc": "https://toolcosmos.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Tool Dynamo",
+      "href": "https://tooldynamo.com",
+      "title": "Featured on Tool Dynamo",
+      "imageSrc": "https://tooldynamo.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Tool Find Dir",
+      "href": "https://toolfinddir.com",
+      "title": "Featured on Tool Find Dir",
+      "imageSrc": "https://toolfinddir.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Tool Ignite",
+      "href": "https://toolignite.com",
+      "title": "Featured on Tool Ignite",
+      "imageSrc": "https://toolignite.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Tool Journey",
+      "href": "https://tooljourney.com",
+      "title": "Featured on Tool Journey",
+      "imageSrc": "https://tooljourney.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Tool Networker",
+      "href": "https://toolnetworker.com",
+      "title": "Featured on Tool Networker",
+      "imageSrc": "https://toolnetworker.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Tool Parade",
+      "href": "https://toolparade.com",
+      "title": "Featured on Tool Parade",
+      "imageSrc": "https://toolparade.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Tool Prism",
+      "href": "https://toolprism.com",
+      "title": "Featured on Tool Prism",
+      "imageSrc": "https://toolprism.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Tool Signal",
+      "href": "https://toolsignal.com",
+      "title": "Featured on Tool Signal",
+      "imageSrc": "https://toolsignal.com/assets/images/badge.png",
       "rel": "noopener noreferrer"
     },
     {
@@ -338,10 +702,59 @@
       "rel": "noopener noreferrer"
     },
     {
+      "label": "Featured on Toolkit Index",
+      "href": "https://toolkitindex.com",
+      "title": "Featured on Toolkit Index",
+      "imageSrc": "https://toolkitindex.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Tools List HQ",
+      "href": "https://toolslisthq.com",
+      "title": "Featured on Tools List HQ",
+      "imageSrc": "https://toolslisthq.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Tools Under Radar",
+      "href": "https://toolsunderradar.com",
+      "title": "Featured on Tools Under Radar",
+      "imageSrc": "https://toolsunderradar.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Top Free AI Tools",
+      "href": "https://topfreeaitools.com",
+      "title": "Featured on Top Free AI Tools",
+      "imageSrc": "https://ff65dcf08ebd5eb1c022b44dd88016ac.cdn.bubble.io/f1724746116087x632750678197528400/badge%20white.png?_gl=1*1wvcbnr*_gcl_au*MTg3MzI0ODMyLjE3MjE2MjAzNjA.*_ga*NTIyODE4MzEyLjE3MDU5OTg0MTc.*_ga_BFPVR2DEE2*MTcyNDc0NTM2OS4yMjkuMS4xNzI0NzQ2MjY2LjYwLjAuMA..",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Top Trend Tools",
+      "href": "https://toptrendtools.com",
+      "title": "Featured on Top Trend Tools",
+      "imageSrc": "https://toptrendtools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
       "label": "Featured on TopAIToolsReview",
       "href": "https://topaitoolsreview.com",
       "title": "Featured on TopAIToolsReview",
       "imageSrc": "https://cdn.topaitoolsreview.com/defaults/featured-on_light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Toshi List",
+      "href": "https://toshilist.com",
+      "title": "Featured on Toshi List",
+      "imageSrc": "https://toshilist.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Trustiner",
+      "href": "https://trustiner.com",
+      "title": "Featured on Trustiner",
+      "imageSrc": "https://trustiner.com/assets/images/badge.png",
       "rel": "noopener noreferrer"
     },
     {
@@ -352,6 +765,13 @@
       "rel": "noopener noreferrer"
     },
     {
+      "label": "Featured on Unite List",
+      "href": "https://unitelist.com",
+      "title": "Featured on Unite List",
+      "imageSrc": "https://unitelist.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
       "label": "Featured on VibeCodingList",
       "href": "https://vibecodinglist.com",
       "title": "Featured on VibeCodingList",
@@ -359,45 +779,17 @@
       "rel": "noopener noreferrer"
     },
     {
+      "label": "Featured on We Like Tools",
+      "href": "https://weliketools.com",
+      "title": "Featured on We Like Tools",
+      "imageSrc": "https://weliketools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
       "label": "Featured on Whatsthebigdata",
       "href": "https://whatsthebigdata.com/ai-tools/",
-      "title": "Whatsthebigdata AI Tools Directory",
+      "title": "Featured on Whatsthebigdata",
       "imageSrc": "https://whatsthebigdata.com/badges/featured-on-whatsthebigdata-dark.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Good AI Tools",
-      "href": "https://goodaitools.com",
-      "title": "Good AI Tools",
-      "imageSrc": "https://goodaitools.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Hunt for Tools",
-      "href": "https://huntfortools.com",
-      "title": "Hunt for Tools",
-      "imageSrc": "https://huntfortools.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Latest AI Updates",
-      "href": "https://latestaiupdates.com",
-      "title": "Latest AI Updates",
-      "imageSrc": "https://latestaiupdates.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Launch Scroll",
-      "href": "https://launchscroll.com",
-      "title": "Launch Scroll",
-      "imageSrc": "https://launchscroll.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on LaunchClash",
-      "href": "https://launchclash.com",
-      "title": "LaunchClash",
-      "imageSrc": "https://launchclash.com/assets/images/badge.png",
       "rel": "noopener noreferrer"
     },
     {
@@ -422,83 +814,6 @@
       "rel": "noopener noreferrer"
     },
     {
-      "label": "Featured on Million Dot Homepage",
-      "href": "https://milliondothomepage.com",
-      "title": "Million Dot Homepage",
-      "imageSrc": "https://milliondothomepage.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on mirofish | Aidirs",
-      "href": "https://aidirs.best",
-      "title": "mirofish | Aidirs",
-      "imageSrc": "https://aidirs.best/light.svg",
-      "rel": "noopener"
-    },
-    {
-      "label": "Featured on MiroFish on Nick Launches",
-      "href": "https://nicklaunches.com",
-      "title": "MiroFish on Nick Launches",
-      "imageSrc": "https://nicklaunches.com/badges/featured.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on MiroFish on ProductWatch",
-      "href": "https://productwatch.io",
-      "title": "MiroFish on ProductWatch",
-      "imageSrc": "https://productwatch.io/backend/api/v1/badge/featured?productId=eec69c58-6f8a-44b7-8b83-666d06f94914&darkMode=false",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on mirofish on SaaSGrow",
-      "href": "https://saasgrow.app",
-      "title": "mirofish on SaaSGrow",
-      "imageSrc": "https://saasgrow.app/api/badge?type=featured&style=light",
-      "rel": "noopener"
-    },
-    {
-      "label": "Featured on mirofish on StartupTrusted",
-      "href": "https://startuptrusted.com",
-      "title": "mirofish on StartupTrusted",
-      "imageSrc": "https://startuptrusted.com/api/badge?type=featured&style=light",
-      "rel": "noopener"
-    },
-    {
-      "label": "Featured on mirofish on Verified Tools — AI & SaaS tools directory",
-      "href": "https://www.verifiedtools.info",
-      "title": "mirofish on Verified Tools — AI & SaaS tools directory",
-      "imageSrc": "https://www.verifiedtools.info/badge.svg",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on mirofish.homes Domain Rating",
-      "href": "https://domainrank.app",
-      "title": "mirofish.homes Domain Rating",
-      "imageSrc": "https://domainrank.app/api/badge/mirofish.homes?theme=dark",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on My Launch Stash",
-      "href": "https://mylaunchstash.com",
-      "title": "My Launch Stash",
-      "imageSrc": "https://mylaunchstash.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on My Start Tools",
-      "href": "https://mystarttools.com",
-      "title": "My Start Tools",
-      "imageSrc": "https://mystarttools.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Power Up Tools",
-      "href": "https://poweruptools.com",
-      "title": "Power Up Tools",
-      "imageSrc": "https://poweruptools.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
       "label": "Powered by Startup Fast",
       "href": "https://startupfa.st",
       "title": "Powered by Startup Fast",
@@ -506,353 +821,17 @@
       "rel": "noopener noreferrer"
     },
     {
-      "label": "Featured on Product List Dir",
-      "href": "https://productlistdir.com",
-      "title": "Product List Dir",
-      "imageSrc": "https://productlistdir.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Product Wing",
-      "href": "https://productwing.com",
-      "title": "Product Wing",
-      "imageSrc": "https://productwing.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on SaaS Avenue",
-      "href": "https://saasavenue.com",
-      "title": "SaaS Avenue",
-      "imageSrc": "https://saasavenue.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on SaaS Badge",
-      "href": "https://saasbadge.com",
-      "title": "SaaS Badge",
-      "imageSrc": "https://saasbadge.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on SaaS Branch",
-      "href": "https://saasbranch.com",
-      "title": "SaaS Branch",
-      "imageSrc": "https://saasbranch.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on SaaS Crawler",
-      "href": "https://saascrawler.com",
-      "title": "SaaS Crawler",
-      "imageSrc": "https://saascrawler.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on SaaS Field",
-      "href": "https://saasfield.com",
-      "title": "SaaS Field",
-      "imageSrc": "https://saasfield.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on SaaS Networker",
-      "href": "https://saasnetworker.com",
-      "title": "SaaS Networker",
-      "imageSrc": "https://saasnetworker.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on SaaS Roots",
-      "href": "https://saasroots.com",
-      "title": "SaaS Roots",
-      "imageSrc": "https://saasroots.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on SaaS Scanner",
-      "href": "https://saasscanner.com",
-      "title": "SaaS Scanner",
-      "imageSrc": "https://saasscanner.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on SaaS State",
-      "href": "https://saasstate.com",
-      "title": "SaaS State",
-      "imageSrc": "https://saasstate.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on SaaS Territory",
-      "href": "https://saasterritory.com",
-      "title": "SaaS Territory",
-      "imageSrc": "https://saasterritory.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on SaaS Wheel",
-      "href": "https://saaswheel.com",
-      "title": "SaaS Wheel",
-      "imageSrc": "https://saaswheel.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on ShinyLaunch",
-      "href": "https://shinylaunch.com",
-      "title": "ShinyLaunch",
-      "imageSrc": "https://shinylaunch.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Shipyard HQ badge",
-      "href": "https://shipyardhq.dev",
-      "title": "MiroFish on Shipyard HQ",
-      "imageSrc": "https://shipyardhq.dev/api/embed/products/mirofish?theme=light&type=featured&format=svg",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Smart Kit Hub",
-      "href": "https://smartkithub.com",
-      "title": "Smart Kit Hub",
-      "imageSrc": "https://smartkithub.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Software Bolt",
-      "href": "https://softwarebolt.com",
-      "title": "Software Bolt",
-      "imageSrc": "https://softwarebolt.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Solver Tools",
-      "href": "https://solvertools.com",
-      "title": "Solver Tools",
-      "imageSrc": "https://solvertools.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Source Dir",
-      "href": "https://sourcedir.com",
-      "title": "Source Dir",
-      "imageSrc": "https://sourcedir.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Stack Directory",
-      "href": "https://stackdirectory.com",
-      "title": "Stack Directory",
-      "imageSrc": "https://stackdirectory.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Startup AIdeas",
-      "href": "https://startupaideas.com",
-      "title": "Startup AIdeas",
-      "imageSrc": "https://startupaideas.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Startup Benchmarks",
-      "href": "https://startupbenchmarks.com",
-      "title": "Startup Benchmarks",
-      "imageSrc": "https://startupbenchmarks.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Startup Vessel",
-      "href": "https://startupvessel.com",
-      "title": "Startup Vessel",
-      "imageSrc": "https://startupvessel.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Submit AI Tools",
-      "href": "https://submitaitools.org",
-      "title": "Submit AI Tools",
-      "imageSrc": "https://submitaitools.org/static_submitaitools/images/submitaitools.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Super AI Boom",
-      "href": "https://superaiboom.com",
-      "title": "Super AI Boom",
-      "imageSrc": "https://superaiboom.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on That App Show",
-      "href": "https://thatappshow.com",
-      "title": "That App Show",
-      "imageSrc": "https://thatappshow.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on The App Tools",
-      "href": "https://theapptools.com",
-      "title": "The App Tools",
-      "imageSrc": "https://theapptools.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on The Core Tools",
-      "href": "https://thecoretools.com",
-      "title": "The Core Tools",
-      "imageSrc": "https://thecoretools.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on The Key Tools",
-      "href": "https://thekeytools.com",
-      "title": "The Key Tools",
-      "imageSrc": "https://thekeytools.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on The Mega Tools",
-      "href": "https://themegatools.com",
-      "title": "The Mega Tools",
-      "imageSrc": "https://themegatools.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Tiny Tool Hub",
-      "href": "https://tinytoolhub.com",
-      "title": "Tiny Tool Hub",
-      "imageSrc": "https://tinytoolhub.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Tool Cosmos",
-      "href": "https://toolcosmos.com",
-      "title": "Tool Cosmos",
-      "imageSrc": "https://toolcosmos.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Tool Dynamo",
-      "href": "https://tooldynamo.com",
-      "title": "Tool Dynamo",
-      "imageSrc": "https://tooldynamo.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Tool Find Dir",
-      "href": "https://toolfinddir.com",
-      "title": "Tool Find Dir",
-      "imageSrc": "https://toolfinddir.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Tool Ignite",
-      "href": "https://toolignite.com",
-      "title": "Tool Ignite",
-      "imageSrc": "https://toolignite.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Tool Journey",
-      "href": "https://tooljourney.com",
-      "title": "Tool Journey",
-      "imageSrc": "https://tooljourney.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Tool Networker",
-      "href": "https://toolnetworker.com",
-      "title": "Tool Networker",
-      "imageSrc": "https://toolnetworker.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Tool Parade",
-      "href": "https://toolparade.com",
-      "title": "Tool Parade",
-      "imageSrc": "https://toolparade.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Tool Prism",
-      "href": "https://toolprism.com",
-      "title": "Tool Prism",
-      "imageSrc": "https://toolprism.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Tool Signal",
-      "href": "https://toolsignal.com",
-      "title": "Tool Signal",
-      "imageSrc": "https://toolsignal.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Toolkit Index",
-      "href": "https://toolkitindex.com",
-      "title": "Toolkit Index",
-      "imageSrc": "https://toolkitindex.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Tools List HQ",
-      "href": "https://toolslisthq.com",
-      "title": "Tools List HQ",
-      "imageSrc": "https://toolslisthq.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Tools Under Radar",
-      "href": "https://toolsunderradar.com",
-      "title": "Tools Under Radar",
-      "imageSrc": "https://toolsunderradar.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Top Free AI Tools",
-      "href": "https://topfreeaitools.com",
-      "title": "Top Free AI Tools",
-      "imageSrc": "https://ff65dcf08ebd5eb1c022b44dd88016ac.cdn.bubble.io/f1724746116087x632750678197528400/badge%20white.png?_gl=1*1wvcbnr*_gcl_au*MTg3MzI0ODMyLjE3MjE2MjAzNjA.*_ga*NTIyODE4MzEyLjE3MDU5OTg0MTc.*_ga_BFPVR2DEE2*MTcyNDc0NTM2OS4yMjkuMS4xNzI0NzQ2MjY2LjYwLjAuMA..",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Top Trend Tools",
-      "href": "https://toptrendtools.com",
-      "title": "Top Trend Tools",
-      "imageSrc": "https://toptrendtools.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Toshi List",
-      "href": "https://toshilist.com",
-      "title": "Toshi List",
-      "imageSrc": "https://toshilist.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Trustiner",
-      "href": "https://trustiner.com",
-      "title": "Trustiner",
-      "imageSrc": "https://trustiner.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
-      "label": "Featured on Unite List",
-      "href": "https://unitelist.com",
-      "title": "Unite List",
-      "imageSrc": "https://unitelist.com/assets/images/badge.png",
-      "rel": "noopener noreferrer"
-    },
-    {
       "label": "Verified on DANG!",
       "href": "https://dang.ai",
-      "title": "DANG! AI Tools Directory",
+      "title": "Verified on DANG!",
       "imageSrc": "https://assets.dang.ai/badges/dang-verified-dark.png",
       "rel": "dofollow noopener"
     },
     {
-      "label": "Featured on We Like Tools",
-      "href": "https://weliketools.com",
-      "title": "We Like Tools",
-      "imageSrc": "https://weliketools.com/assets/images/badge.png",
+      "label": "Verified Tools — AI & SaaS tools directory",
+      "href": "https://www.verifiedtools.info",
+      "title": "Verified Tools — AI & SaaS tools directory",
+      "imageSrc": "https://www.verifiedtools.info/badge.svg",
       "rel": "noopener noreferrer"
     }
   ]
