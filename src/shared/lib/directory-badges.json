@@ -1,0 +1,933 @@
+{
+  "version": 1,
+  "badges": [
+    {
+      "label": "Featured on Whatsthebigdata",
+      "href": "https://whatsthebigdata.com/ai-tools/",
+      "title": "Whatsthebigdata AI Tools Directory",
+      "imageSrc": "https://whatsthebigdata.com/badges/featured-on-whatsthebigdata-dark.png"
+    },
+    {
+      "label": "Verified on DANG!",
+      "href": "https://dang.ai",
+      "title": "DANG! AI Tools Directory",
+      "imageSrc": "https://assets.dang.ai/badges/dang-verified-dark.png",
+      "rel": "dofollow noopener"
+    },
+    {
+      "label": "Featured on Artificin",
+      "href": "https://artificin.com?utm_source=badge&utm_medium=referral&utm_campaign=featured_badge",
+      "title": "Artificin AI Tools Directory",
+      "imageSrc": "https://artificin.com/badges/Artificin-badge.png",
+      "rel": "noopener"
+    },
+    {
+      "label": "Featured on Best Free AI Tools",
+      "href": "https://bestfreeai.tools",
+      "title": "Best Free AI Tools Directory",
+      "imageSrc": "https://bestfreeai.tools/badges/best-free-ai-tools.png",
+      "rel": "dofollow noopener"
+    },
+    {
+      "label": "Featured on AInexfinder",
+      "href": "https://ainexfinder.com",
+      "title": "Featured on AInexfinder",
+      "imageSrc": "https://ainexfinder.com/brand/ainexfinder-logo-white.png"
+    },
+    {
+      "label": "Animate Photo AI",
+      "href": "https://animatephoto.io",
+      "title": "Animate Photo AI",
+      "text": "Animate Photo AI"
+    },
+    {
+      "label": "Top AI Tools",
+      "href": "https://top4ai.com",
+      "title": "Top AI Tools",
+      "text": "Top AI Tools",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Finetools AI Tools Directory",
+      "href": "https://finetools.ai/",
+      "title": "Finetools AI Tools Directory",
+      "text": "Finetools AI Tools Directory",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "What Is Ai Tools",
+      "href": "https://whatisaitools.com/",
+      "title": "What Is Ai Tools",
+      "text": "What Is Ai Tools",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "AI Tool Center",
+      "href": "https://aitoolcenter.com/",
+      "title": "AI Tool Center",
+      "text": "AI Tool Center",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "AiToolGo",
+      "href": "https://www.aitoolgo.com",
+      "title": "AiToolGo",
+      "text": "AiToolGo",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Listed on Turbo0",
+      "href": "https://turbo0.com/item/mirofish",
+      "title": "Listed on Turbo0",
+      "imageSrc": "https://img.turbo0.com/badge-listed-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Listed on AIDirs",
+      "href": "https://aidirs.org/item/mirofish-prediction-engine",
+      "title": "Listed on AIDirs",
+      "imageSrc": "https://aidirs.org/badges/badge-listed-dark.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Twelve Tools",
+      "href": "https://twelve.tools",
+      "title": "Featured on Twelve Tools",
+      "imageSrc": "https://twelve.tools/badge0-white.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "mirofish | Aidirs",
+      "href": "https://aidirs.best/item/mirofish",
+      "title": "mirofish | Aidirs",
+      "imageSrc": "https://aidirs.best/light.svg",
+      "rel": "noopener"
+    },
+    {
+      "label": "Submit AI Tools",
+      "href": "https://submitaitools.org",
+      "title": "Submit AI Tools",
+      "imageSrc": "https://submitaitools.org/static_submitaitools/images/submitaitools.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on ToolDirs",
+      "href": "https://tooldirs.com",
+      "title": "Featured on ToolDirs",
+      "imageSrc": "https://tooldirs.com/badge/badge_light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on toolfame.com",
+      "href": "https://toolfame.com/item/mirofish",
+      "title": "Featured on toolfame.com",
+      "imageSrc": "https://toolfame.com/badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Top Free AI Tools",
+      "href": "https://topfreeaitools.com/ai/mirofish",
+      "title": "Top Free AI Tools",
+      "imageSrc": "https://ff65dcf08ebd5eb1c022b44dd88016ac.cdn.bubble.io/f1724746116087x632750678197528400/badge%20white.png?_gl=1*1wvcbnr*_gcl_au*MTg3MzI0ODMyLjE3MjE2MjAzNjA.*_ga*NTIyODE4MzEyLjE3MDU5OTg0MTc.*_ga_BFPVR2DEE2*MTcyNDc0NTM2OS4yMjkuMS4xNzI0NzQ2MjY2LjYwLjAuMA..",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Discover more AI tools at aifinder.site",
+      "href": "https://aifinder.site",
+      "title": "Discover more AI tools at aifinder.site",
+      "imageSrc": "https://www.aifinder.site/light-badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on aitoolfame.com",
+      "href": "https://aitoolfame.com/item/mirofish",
+      "title": "Featured on aitoolfame.com",
+      "imageSrc": "https://aitoolfame.com/badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "All in AI Tools",
+      "href": "https://allinai.tools",
+      "title": "All The Best AI Tools",
+      "text": "All in AI Tools",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on BestskyTools",
+      "href": "https://bestsky.tools?utm_source=badge",
+      "title": "Featured on BestskyTools",
+      "imageSrc": "https://assets.bestsky.tools/badges/featured-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Dofollow.Tools",
+      "href": "https://dofollow.tools",
+      "title": "Featured on Dofollow.Tools",
+      "imageSrc": "https://dofollow.tools/badge/badge_light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "mirofish.homes Domain Rating",
+      "href": "https://domainrank.app",
+      "title": "mirofish.homes Domain Rating",
+      "imageSrc": "https://domainrank.app/api/badge/mirofish.homes?theme=dark",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Fazier badge",
+      "href": "https://fazier.com",
+      "title": "Fazier badge",
+      "imageSrc": "https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Findly.tools",
+      "href": "https://findly.tools/mirofish-2?utm_source=mirofish-2",
+      "title": "Featured on Findly.tools",
+      "imageSrc": "https://findly.tools/badges/findly-tools-badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "mirofish on SaaSGrow",
+      "href": "https://saasgrow.app?ref=mirofish.homes",
+      "title": "mirofish on SaaSGrow",
+      "imageSrc": "https://saasgrow.app/api/badge?type=featured&style=light",
+      "rel": "noopener"
+    },
+    {
+      "label": "mirofish on StartupTrusted",
+      "href": "https://startuptrusted.com?ref=mirofish.homes",
+      "title": "mirofish on StartupTrusted",
+      "imageSrc": "https://startuptrusted.com/api/badge?type=featured&style=light",
+      "rel": "noopener"
+    },
+    {
+      "label": "Featured on neeed.directory",
+      "href": "https://neeed.directory",
+      "title": "Featured on neeed.directory",
+      "imageSrc": "https://neeed.directory/badges/neeed-badge-light.svg",
+      "rel": "noopener"
+    },
+    {
+      "label": "Featured on NewTool.site",
+      "href": "https://newtool.site/item/mirofish",
+      "title": "Featured on NewTool.site",
+      "imageSrc": "https://newtool.site/badges/newtool-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Powered by Startup Fast",
+      "href": "https://startupfa.st",
+      "title": "Powered by Startup Fast",
+      "imageSrc": "https://startupfa.st/images/badges/powered-by-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Find us on AIBlog.tools",
+      "href": "https://aiblog.tools",
+      "title": "Find us on AIBlog.tools",
+      "text": "AIBlog.tools",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on TopAIToolsReview",
+      "href": "https://topaitoolsreview.com",
+      "title": "Featured on TopAIToolsReview",
+      "imageSrc": "https://cdn.topaitoolsreview.com/defaults/featured-on_light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on PopWebTools",
+      "href": "https://www.popwebtools.com",
+      "title": "Featured on PopWebTools",
+      "imageSrc": "https://www.popwebtools.com/images/featured-badge-light.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "OpenI AI时代",
+      "href": "https://openi.cn/",
+      "title": "OpenI AI时代",
+      "text": "OpenI AI时代",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Feature On aifinderplus.com",
+      "href": "https://aifinderplus.com/item/mirofish",
+      "title": "Feature On aifinderplus.com",
+      "imageSrc": "https://aifinderplus.com/badge.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Good AI Tools",
+      "href": "https://goodaitools.com/ai/mirofish",
+      "title": "Good AI Tools",
+      "imageSrc": "https://goodaitools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on AIJustBetter.com",
+      "href": "https://aijustbetter.com/item/mirofish.homes-1",
+      "title": "Featured on AIJustBetter.com",
+      "imageSrc": "https://cdn.aijustbetter.com/badges/badge-dark.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on AIJustBetter.com",
+      "href": "https://aijustbetter.com/item/mirofish.homes-2",
+      "title": "Featured on AIJustBetter.com",
+      "imageSrc": "https://cdn.aijustbetter.com/badges/badge-dark.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on saasfame.com",
+      "href": "https://saasfame.com/item/mirofish",
+      "title": "Featured on saasfame.com",
+      "imageSrc": "https://saasfame.com/badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Smol Launch",
+      "href": "https://smollaunch.com",
+      "title": "Featured on Smol Launch",
+      "imageSrc": "https://smollaunch.com/badges/featured.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on FreeAI",
+      "href": "https://www.freeai.run",
+      "title": "Featured on FreeAI",
+      "imageSrc": "https://www.freeai.run/badge/badge_light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on SaaSTool.site",
+      "href": "https://saastool.site/item/mirofish",
+      "title": "Featured on SaaSTool.site",
+      "imageSrc": "https://saastool.site/badges/saastool-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on ShowMeBestAI",
+      "href": "https://showmebest.ai",
+      "title": "Featured on ShowMeBestAI",
+      "imageSrc": "https://showmebest.ai/badge/feature-badge-white.webp",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "My Launch Stash",
+      "href": "https://mylaunchstash.com/product/mirofish",
+      "title": "My Launch Stash",
+      "imageSrc": "https://mylaunchstash.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on EarlyHunt",
+      "href": "https://earlyhunt.com/project/mirofish",
+      "title": "Featured on EarlyHunt",
+      "imageSrc": "https://earlyhunt.com/badges/earlyhunt-badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Best Tool Vault",
+      "href": "https://besttoolvault.com/tool/mirofish",
+      "title": "Best Tool Vault",
+      "imageSrc": "https://besttoolvault.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on IndieHunt",
+      "href": "https://indiehunt.io/project/mirofish",
+      "title": "Featured on IndieHunt",
+      "imageSrc": "https://indiehunt.io/badges/indiehunt-badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Software Bolt",
+      "href": "https://softwarebolt.com/product/mirofish",
+      "title": "Software Bolt",
+      "imageSrc": "https://softwarebolt.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on aihuntlist.com",
+      "href": "https://aihuntlist.com/tool/mirofish",
+      "title": "Featured on aihuntlist.com",
+      "imageSrc": "https://aihuntlist.com/badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on LaunchIgniter",
+      "href": "https://launchigniter.com/product/mirofish-1?ref=badge-mirofish-1",
+      "title": "Featured on LaunchIgniter",
+      "imageSrc": "https://launchigniter.com/api/badge/mirofish-1?theme=light",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on DeepLaunch.io",
+      "href": "https://deeplaunch.io",
+      "title": "Featured on DeepLaunch.io",
+      "imageSrc": "https://deeplaunch.io/badge/badge_light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Shipstry",
+      "href": "https://shipstry.com/",
+      "title": "Featured on Shipstry",
+      "imageSrc": "https://shipstry.com/badges/featured.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Tiny Tool Hub",
+      "href": "https://tinytoolhub.com/tool/mirofish",
+      "title": "Tiny Tool Hub",
+      "imageSrc": "https://tinytoolhub.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Acid Tools",
+      "href": "https://acidtools.com/ai/mirofish",
+      "title": "Acid Tools",
+      "imageSrc": "https://acidtools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on NavifyAI.com - AI Tools Directory",
+      "href": "https://navifyai.com/",
+      "title": "Featured on NavifyAI.com - AI Tools Directory",
+      "imageSrc": "https://navifyai.com/static/img/badge-dark.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "SaaS Crawler",
+      "href": "https://saascrawler.com/products/mirofish",
+      "title": "SaaS Crawler",
+      "imageSrc": "https://saascrawler.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "SaaS Avenue",
+      "href": "https://saasavenue.com/products/mirofish",
+      "title": "SaaS Avenue",
+      "imageSrc": "https://saasavenue.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "SaaS Branch",
+      "href": "https://saasbranch.com/products/mirofish",
+      "title": "SaaS Branch",
+      "imageSrc": "https://saasbranch.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "SaaS Badge",
+      "href": "https://saasbadge.com/products/mirofish",
+      "title": "SaaS Badge",
+      "imageSrc": "https://saasbadge.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "SaaS Networker",
+      "href": "https://saasnetworker.com/products/mirofish",
+      "title": "SaaS Networker",
+      "imageSrc": "https://saasnetworker.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "SaaS Scanner",
+      "href": "https://saasscanner.com/products/mirofish",
+      "title": "SaaS Scanner",
+      "imageSrc": "https://saasscanner.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "SaaS State",
+      "href": "https://saasstate.com/products/mirofish",
+      "title": "SaaS State",
+      "imageSrc": "https://saasstate.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Tool Ignite",
+      "href": "https://toolignite.com/tools/mirofish",
+      "title": "Tool Ignite",
+      "imageSrc": "https://toolignite.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Tool Dynamo",
+      "href": "https://tooldynamo.com/tools/mirofish",
+      "title": "Tool Dynamo",
+      "imageSrc": "https://tooldynamo.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "SaaS Territory",
+      "href": "https://saasterritory.com/products/mirofish",
+      "title": "SaaS Territory",
+      "imageSrc": "https://saasterritory.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "App Networker",
+      "href": "https://appnetworker.com/products/mirofish",
+      "title": "App Networker",
+      "imageSrc": "https://appnetworker.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Toolkit Index",
+      "href": "https://toolkitindex.com/products/mirofish",
+      "title": "Toolkit Index",
+      "imageSrc": "https://toolkitindex.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Tool Networker",
+      "href": "https://toolnetworker.com/tools/mirofish",
+      "title": "Tool Networker",
+      "imageSrc": "https://toolnetworker.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Tool Parade",
+      "href": "https://toolparade.com/tools/mirofish",
+      "title": "Tool Parade",
+      "imageSrc": "https://toolparade.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "LaunchClash",
+      "href": "https://launchclash.com/product/mirofish",
+      "title": "LaunchClash",
+      "imageSrc": "https://launchclash.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Million Dot Homepage",
+      "href": "https://milliondothomepage.com/product/mirofish",
+      "title": "Million Dot Homepage",
+      "imageSrc": "https://milliondothomepage.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "AI Tech Viral",
+      "href": "https://aitechviral.com/ai/mirofish",
+      "title": "AI Tech Viral",
+      "imageSrc": "https://aitechviral.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "AIGC 160",
+      "href": "https://aigc160.com/ai/mirofish",
+      "title": "AIGC 160",
+      "imageSrc": "https://aigc160.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "ShinyLaunch",
+      "href": "https://shinylaunch.com/product/mirofish",
+      "title": "ShinyLaunch",
+      "imageSrc": "https://shinylaunch.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Appsy Tools",
+      "href": "https://appsytools.com/tool/mirofish",
+      "title": "Appsy Tools",
+      "imageSrc": "https://appsytools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Appa List",
+      "href": "https://appalist.com/ai/mirofish",
+      "title": "Appa List",
+      "imageSrc": "https://appalist.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "AI X Collection",
+      "href": "https://aixcollection.com/ai/mirofish",
+      "title": "AI X Collection",
+      "imageSrc": "https://aixcollection.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "AI Toolz",
+      "href": "https://aitoolzs.com/ai/mirofish",
+      "title": "AI Toolz",
+      "imageSrc": "https://aitoolzs.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Ash List",
+      "href": "https://ashlist.com/product/mirofish",
+      "title": "Ash List",
+      "imageSrc": "https://ashlist.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Beam Tools",
+      "href": "https://beamtools.com/tool/mirofish",
+      "title": "Beam Tools",
+      "imageSrc": "https://beamtools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Hunt for Tools",
+      "href": "https://huntfortools.com/tool/mirofish",
+      "title": "Hunt for Tools",
+      "imageSrc": "https://huntfortools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "My Start Tools",
+      "href": "https://mystarttools.com/tool/mirofish",
+      "title": "My Start Tools",
+      "imageSrc": "https://mystarttools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Launch Scroll",
+      "href": "https://launchscroll.com/product/mirofish",
+      "title": "Launch Scroll",
+      "imageSrc": "https://launchscroll.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Latest AI Updates",
+      "href": "https://latestaiupdates.com/ai/mirofish",
+      "title": "Latest AI Updates",
+      "imageSrc": "https://latestaiupdates.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Product List Dir",
+      "href": "https://productlistdir.com/product/mirofish",
+      "title": "Product List Dir",
+      "imageSrc": "https://productlistdir.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Power Up Tools",
+      "href": "https://poweruptools.com/ai/mirofish",
+      "title": "Power Up Tools",
+      "imageSrc": "https://poweruptools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "We Like Tools",
+      "href": "https://weliketools.com/tool/mirofish",
+      "title": "We Like Tools",
+      "imageSrc": "https://weliketools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Unite List",
+      "href": "https://unitelist.com/product/mirofish",
+      "title": "Unite List",
+      "imageSrc": "https://unitelist.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Trustiner",
+      "href": "https://trustiner.com/product/mirofish",
+      "title": "Trustiner",
+      "imageSrc": "https://trustiner.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Toshi List",
+      "href": "https://toshilist.com/product/mirofish",
+      "title": "Toshi List",
+      "imageSrc": "https://toshilist.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Tools Under Radar",
+      "href": "https://toolsunderradar.com/tool/mirofish",
+      "title": "Tools Under Radar",
+      "imageSrc": "https://toolsunderradar.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Tools List HQ",
+      "href": "https://toolslisthq.com/tool/mirofish",
+      "title": "Tools List HQ",
+      "imageSrc": "https://toolslisthq.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Top Trend Tools",
+      "href": "https://toptrendtools.com/tool/mirofish",
+      "title": "Top Trend Tools",
+      "imageSrc": "https://toptrendtools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Tool Prism",
+      "href": "https://toolprism.com/ai/mirofish",
+      "title": "Tool Prism",
+      "imageSrc": "https://toolprism.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Tool Journey",
+      "href": "https://tooljourney.com/tool/mirofish",
+      "title": "Tool Journey",
+      "imageSrc": "https://tooljourney.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Tool Find Dir",
+      "href": "https://toolfinddir.com/ai/mirofish",
+      "title": "Tool Find Dir",
+      "imageSrc": "https://toolfinddir.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "The Mega Tools",
+      "href": "https://themegatools.com/tool/mirofish",
+      "title": "The Mega Tools",
+      "imageSrc": "https://themegatools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Tool Cosmos",
+      "href": "https://toolcosmos.com/tool/mirofish",
+      "title": "Tool Cosmos",
+      "imageSrc": "https://toolcosmos.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "The Key Tools",
+      "href": "https://thekeytools.com/ai/mirofish",
+      "title": "The Key Tools",
+      "imageSrc": "https://thekeytools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "The Core Tools",
+      "href": "https://thecoretools.com/tool/mirofish",
+      "title": "The Core Tools",
+      "imageSrc": "https://thecoretools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "The App Tools",
+      "href": "https://theapptools.com/ai/mirofish",
+      "title": "The App Tools",
+      "imageSrc": "https://theapptools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Startup Vessel",
+      "href": "https://startupvessel.com/product/mirofish",
+      "title": "Startup Vessel",
+      "imageSrc": "https://startupvessel.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Super AI Boom",
+      "href": "https://superaiboom.com/ai/mirofish",
+      "title": "Super AI Boom",
+      "imageSrc": "https://superaiboom.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "That App Show",
+      "href": "https://thatappshow.com/product/mirofish",
+      "title": "That App Show",
+      "imageSrc": "https://thatappshow.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Startup Benchmarks",
+      "href": "https://startupbenchmarks.com/product/mirofish",
+      "title": "Startup Benchmarks",
+      "imageSrc": "https://startupbenchmarks.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Startup AIdeas",
+      "href": "https://startupaideas.com/ai/mirofish",
+      "title": "Startup AIdeas",
+      "imageSrc": "https://startupaideas.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Stack Directory",
+      "href": "https://stackdirectory.com/product/mirofish",
+      "title": "Stack Directory",
+      "imageSrc": "https://stackdirectory.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "App Hub List",
+      "href": "https://apphublist.com/products/mirofish",
+      "title": "App Hub List",
+      "imageSrc": "https://apphublist.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Aura++",
+      "href": "https://auraplusplus.com/projects/mirofish",
+      "title": "Featured on Aura++",
+      "imageSrc": "https://auraplusplus.com/images/badges/featured-on-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Tool Signal",
+      "href": "https://toolsignal.com/tool/mirofish",
+      "title": "Tool Signal",
+      "imageSrc": "https://toolsignal.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on MakerHunt",
+      "href": "https://makerhunt.io/project/mirofish",
+      "title": "Featured on MakerHunt",
+      "imageSrc": "https://makerhunt.io/badges/makerhunt-badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Sidehunt",
+      "href": "https://sidehunt.io/project/mirofish",
+      "title": "Featured on Sidehunt",
+      "imageSrc": "https://sidehunt.io/badges/sidehunt-badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Listed on Uno Directory",
+      "href": "https://uno.directory",
+      "title": "Listed on Uno Directory",
+      "imageSrc": "https://uno.directory/uno-directory.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on ProductFame",
+      "href": "https://productfame.com",
+      "title": "Featured on ProductFame",
+      "imageSrc": "https://productfame.com/badges/featured-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "MiroFish on ProductWatch",
+      "href": "https://productwatch.io/products/mirofish?utm_source=badge",
+      "title": "MiroFish on ProductWatch",
+      "imageSrc": "https://productwatch.io/backend/api/v1/badge/featured?productId=eec69c58-6f8a-44b7-8b83-666d06f94914&darkMode=false",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Product Wing",
+      "href": "https://productwing.com/product/mirofish",
+      "title": "Product Wing",
+      "imageSrc": "https://productwing.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "MiroFish on Nick Launches",
+      "href": "https://nicklaunches.com/products/mirofish/?utm_source=mirofish.homes&utm_medium=badge&utm_campaign=featured",
+      "title": "MiroFish on Nick Launches",
+      "imageSrc": "https://nicklaunches.com/badges/featured.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on DanielLaunches",
+      "href": "https://daniellaunches.com",
+      "title": "Featured on DanielLaunches",
+      "imageSrc": "https://daniellaunches.com/badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "mirofish on Verified Tools — AI & SaaS tools directory",
+      "href": "https://www.verifiedtools.info/tools/mirofish-home",
+      "title": "mirofish on Verified Tools — AI & SaaS tools directory",
+      "imageSrc": "https://www.verifiedtools.info/badge.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Shipybara",
+      "href": "https://shipybara.com/projects/mirofish",
+      "title": "Featured on Shipybara",
+      "imageSrc": "https://shipybara.com/images/badges/shipybara-badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on aat.ee",
+      "href": "https://www.aat.ee/?ref=badge",
+      "title": "Featured on aat.ee",
+      "imageSrc": "https://www.aat.ee/images/badges/featured-badge-light.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "SaaS Wheel",
+      "href": "https://saaswheel.com/product/mirofish",
+      "title": "SaaS Wheel",
+      "imageSrc": "https://saaswheel.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Solver Tools",
+      "href": "https://solvertools.com/tool/mirofish",
+      "title": "Solver Tools",
+      "imageSrc": "https://solvertools.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Shipyard HQ badge",
+      "href": "https://shipyardhq.dev/products/mirofish",
+      "title": "MiroFish on Shipyard HQ",
+      "imageSrc": "https://shipyardhq.dev/api/embed/products/mirofish?theme=light&type=featured&format=svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Source Dir",
+      "href": "https://sourcedir.com/product/mirofish",
+      "title": "Source Dir",
+      "imageSrc": "https://sourcedir.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Smart Kit Hub",
+      "href": "https://smartkithub.com/product/mirofish",
+      "title": "Smart Kit Hub",
+      "imageSrc": "https://smartkithub.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "SaaS Roots",
+      "href": "https://saasroots.com/product/mirofish",
+      "title": "SaaS Roots",
+      "imageSrc": "https://saasroots.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "SaaS Field",
+      "href": "https://saasfield.com/ai/mirofish",
+      "title": "SaaS Field",
+      "imageSrc": "https://saasfield.com/assets/images/badge.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on VibeCodingList",
+      "href": "https://vibecodinglist.com/projects/mirofish?utm_source=vcl_badge&utm_medium=builder_site&utm_campaign=listed_badge&utm_content=mirofish",
+      "title": "Featured on VibeCodingList",
+      "imageSrc": "https://vibecodinglist.com/assets/embed-widget/featured-on-badge-dark.png",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "Featured on Shipycorn",
+      "href": "https://shipycorn.com",
+      "title": "Featured on Shipycorn",
+      "imageSrc": "https://shipycorn.com/images/badges/shipycorn.badge.svg",
+      "rel": "noopener noreferrer"
+    },
+    {
+      "label": "IndieHustles",
+      "href": "https://indiehustles.com/product/mirofish",
+      "title": "MiroFish on IndieHustles",
+      "text": "IndieHustles",
+      "rel": "noopener noreferrer"
+    }
+  ]
+}
