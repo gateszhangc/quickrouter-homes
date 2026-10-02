@@ -20,12 +20,20 @@ DeepSeek, Grok and 400+ further models behind one OpenAI-compatible base URL.
 - `src/config/style/quickrouter.css` - the site theme
 - `src/config/locale/messages/en/pages/pricing.json` - plans and Stripe product ids
 - `public/quickrouter/*` - logo, favicon, apple touch icon and OG preview
+- `public/images`, `public/videos` - provider/tool logos, testimonial avatars and the workbench clips mirrored from the reference site
 
 ## Assets
 
 The mark, wordmark and social preview are authored as SVG and rasterised by
 `scripts/quickrouter/build-assets.sh` (headless Chrome + Pillow). Run it after
 editing any SVG in `public/quickrouter`.
+
+The provider rail, tool chips, trust avatars and the five workbench videos reuse
+the media from the reference site. `scripts/quickrouter/fetch-reference-assets.mjs`
+mirrors them into `public/` (it sets the browser UA/Referer the reference host
+expects and skips files that are already present; `FORCE=1` re-downloads).
+Workbench cards keep their poster until they scroll into view, so the ~4MB of
+video never lands on first paint.
 
 ## CTA behaviour
 

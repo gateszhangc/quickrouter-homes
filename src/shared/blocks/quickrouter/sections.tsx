@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   ArrowRight,
   Bot,
@@ -29,6 +29,8 @@ import {
   Showcases,
   Testimonials,
   ToolChips,
+  ToolLogos,
+  VendorLogos,
   Vendors,
 } from './content';
 
@@ -37,6 +39,40 @@ const stepIcons = [KeyRound, Terminal, Plug, Rocket];
 export function QuickRouterHome() {
   const [vendor, setVendor] = useState<string>('All models');
   const [tool, setTool] = useState<string>(DevTools[0].name);
+  const showcaseRefs = useRef(new Map<string, HTMLVideoElement>());
+
+  /**
+   * The reference site only paints posters until a card is on screen. Keep the
+   * same behaviour: no 4MB of video on first paint, playback when visible.
+   */
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const video = entry.target as HTMLVideoElement;
+          if (entry.isIntersecting) {
+            void video.play().catch(() => {});
+          } else {
+            video.pause();
+          }
+        }
+      },
+      { threshold: 0.25 }
+    );
+
+    for (const video of showcaseRefs.current.values()) observer.observe(video);
+    return () => observer.disconnect();
+  }, []);
+
+  const registerShowcase = useCallback(
+    (key: string, node: HTMLVideoElement | null) => {
+      if (node) showcaseRefs.current.set(key, node);
+      else showcaseRefs.current.delete(key);
+    },
+    []
+  );
 
   const filteredModels = useMemo(
     () =>
@@ -106,7 +142,12 @@ export function QuickRouterHome() {
       <section className="qr-band" aria-label="Supported providers">
         <div className="qr-band-track">
           {[...Vendors, ...Vendors].map((name, index) => (
-            <span key={`${name}-${index}`}>{name}</span>
+            <span key={`${name}-${index}`}>
+              {VendorLogos[name] ? (
+                <img src={VendorLogos[name]} alt="" aria-hidden="true" />
+              ) : null}
+              {name}
+            </span>
           ))}
         </div>
       </section>
@@ -244,7 +285,12 @@ export function QuickRouterHome() {
           </div>
           <div className="qr-chip-row">
             {ToolChips.map((chip) => (
-              <span key={chip}>{chip}</span>
+              <span key={chip}>
+                {ToolLogos[chip] ? (
+                  <img src={ToolLogos[chip]} alt="" aria-hidden="true" />
+                ) : null}
+                {chip}
+              </span>
             ))}
           </div>
         </div>
@@ -260,7 +306,18 @@ export function QuickRouterHome() {
           <div className="qr-showcase-grid">
             {Showcases.map((item) => (
               <article key={item.model}>
-                <div className={`qr-showcase-art bg-gradient-to-br ${item.tint}`}>
+                <div className="qr-showcase-art">
+                  <video
+                    className="qr-showcase-media"
+                    poster={item.poster}
+                    src={item.video}
+                    ref={(node) => registerShowcase(item.model, node)}
+                    aria-label={`${item.title} - ${item.model}`}
+                    muted
+                    loop
+                    playsInline
+                    preload="none"
+                  />
                   <span>{item.kind}</span>
                 </div>
                 <div className="qr-showcase-body">
@@ -348,17 +405,26 @@ export function QuickRouterHome() {
             copy="From solo builders to product teams shipping with OpenAI, Claude, Gemini, DeepSeek and Grok every day."
           />
           <div className="qr-people">
-            {Testimonials.map(([name, role], index) => (
+            {Testimonials.map(([name, role, avatar], index) => (
               <article key={name}>
-                <span
-                  className="qr-avatar"
-                  style={{
-                    background: `hsl(${(index * 37) % 360} 70% 58%)`,
-                  }}
-                  aria-hidden="true"
-                >
-                  {name.slice(0, 1)}
-                </span>
+                {avatar ? (
+                  <img
+                    className="qr-avatar"
+                    src={avatar}
+                    alt=""
+                    aria-hidden="true"
+                  />
+                ) : (
+                  <span
+                    className="qr-avatar"
+                    style={{
+                      background: `hsl(${(index * 37) % 360} 70% 58%)`,
+                    }}
+                    aria-hidden="true"
+                  >
+                    {name.slice(0, 1)}
+                  </span>
+                )}
                 <div>
                   <b>{name}</b>
                   <span>{role}</span>

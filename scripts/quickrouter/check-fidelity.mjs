@@ -23,6 +23,9 @@ const pages = [
       'Claude Code',
       'api.quickrouter.homes/v1',
       'Get started',
+      '/videos/creative-studio/seedance25-stage-v2.mp4',
+      '/images/openai.png',
+      '/images/brand_logos/cursor.svg',
     ],
   },
   {
@@ -88,6 +91,18 @@ for (const page of pages) {
     );
     if (outOfOrder) fail(`home sections are missing or out of order: ${sectionOrder.join(' -> ')}`);
     else console.log('ok   home section order');
+
+    const videos = html.match(/<video\b[^>]*>/g) || [];
+    const lazyVideos = videos.filter(
+      (tag) => tag.includes('preload="none"') && tag.includes('poster=')
+    );
+    if (videos.length !== 5 || lazyVideos.length !== 5) {
+      fail(
+        `workbench videos should be 5 lazy posters, found ${videos.length} tags / ${lazyVideos.length} lazy`
+      );
+    } else {
+      console.log('ok   workbench videos (5 lazy posters)');
+    }
 
     for (const match of html.matchAll(/href="(\/[^"#?]*)/g)) {
       internalLinks.add(match[1]);

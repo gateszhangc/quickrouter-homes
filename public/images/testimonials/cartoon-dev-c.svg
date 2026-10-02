@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="cartoon developer avatar">
+  <defs>
+    <linearGradient id="bg" x1="20" y1="10" x2="140" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4C1D95"/>
+      <stop offset="1" stop-color="#12071F"/>
+    </linearGradient>
+    <linearGradient id="hood" x1="46" y1="48" x2="116" y2="130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="80" fill="url(#bg)"/>
+  <circle cx="80" cy="77" r="41" fill="#281243"/>
+  <path d="M42 138c8-28 23-43 38-43s30 15 38 43H42Z" fill="url(#hood)"/>
+  <circle cx="80" cy="76" r="31" fill="#F2C8A4"/>
+  <path d="M49 72c2-28 17-43 34-43 19 0 31 17 29 43-12-13-42-15-63 0Z" fill="#1B1028"/>
+  <circle cx="69" cy="80" r="4" fill="#1A1033"/>
+  <circle cx="92" cy="80" r="4" fill="#1A1033"/>
+  <path d="M70 98c7 6 15 6 22 0" fill="none" stroke="#8B3A43" stroke-width="4" stroke-linecap="round"/>
+  <rect x="54" y="72" width="24" height="15" rx="7.5" fill="none" stroke="#1A1033" stroke-width="4"/>
+  <rect x="84" y="72" width="24" height="15" rx="7.5" fill="none" stroke="#1A1033" stroke-width="4"/>
+  <path d="M78 79h6" stroke="#1A1033" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="developer workspace avatar">
+  <defs>
+    <linearGradient id="bg" x1="30" y1="10" x2="128" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset=".48" stop-color="#4C1D95"/>
+      <stop offset="1" stop-color="#12071F"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="40" y1="52" x2="120" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#F5C242"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="80" fill="url(#bg)"/>
+  <circle cx="46" cy="38" r="2" fill="#F4EAFE"/>
+  <circle cx="113" cy="32" r="1.7" fill="#F4EAFE"/>
+  <circle cx="131" cy="64" r="1.4" fill="#F4EAFE"/>
+  <rect x="34" y="51" width="92" height="58" rx="10" fill="#0D0519" stroke="#F5C242" stroke-opacity=".32" stroke-width="3"/>
+  <rect x="43" y="61" width="74" height="38" rx="5" fill="url(#screen)" opacity=".9"/>
+  <path d="M51 76h24M51 88h14M85 76h22M80 88h27" stroke="#12071F" stroke-opacity=".68" stroke-width="4" stroke-linecap="round"/>
+  <path d="M69 109h22l5 16H64l5-16Z" fill="#2A1646"/>
+  <rect x="51" y="125" width="58" height="9" rx="4.5" fill="#F5C242" opacity=".72"/>
+  <path d="M25 142c20-14 91-14 110 0" stroke="#22D3EE" stroke-opacity=".28" stroke-width="7" stroke-linecap="round"/>
+</svg>

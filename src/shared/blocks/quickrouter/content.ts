@@ -45,6 +45,20 @@ export const Vendors = [
   'Vidu',
 ] as const;
 
+/** Vendor rail logos mirrored from the reference site. Names without an entry stay text-only. */
+export const VendorLogos: Record<string, string> = {
+  OpenAI: '/images/openai.png',
+  Anthropic: '/images/claude.png',
+  Google: '/images/google.png',
+  DeepSeek: '/images/deepseek.png',
+  xAI: '/images/grok.png',
+  Meta: '/images/meta.png',
+  Mistral: '/images/mistral.png',
+  Moonshot: '/images/moonshot.png',
+  MiniMax: '/images/minimax.png',
+  Vidu: '/images/vidu.png',
+};
+
 export const ToolChips = [
   'Claude Code',
   'Codex',
@@ -55,6 +69,17 @@ export const ToolChips = [
   'OpenClaw',
   'Hermes',
 ] as const;
+
+/** Tool chip logos mirrored from the reference site. Codex has no asset and stays text-only. */
+export const ToolLogos: Record<string, string> = {
+  'Claude Code': '/images/claude.png',
+  Cursor: '/images/brand_logos/cursor.svg',
+  opencode: '/images/brand_logos/opencode.svg',
+  'Cherry Studio': '/images/brand_logos/cherrystudio.svg',
+  Trae: '/images/brand_logos/trae.svg',
+  OpenClaw: '/images/openclaw-bot.png',
+  Hermes: '/images/brand_logos/hermes.png',
+};
 
 export const PricingCards = [
   {
@@ -171,35 +196,40 @@ export const Showcases = [
     model: 'Seedance 2.5',
     vendor: 'ByteDance',
     kind: 'Video',
-    tint: 'from-[#8b5cf6]/40 to-[#38bdf8]/30',
+    poster: '/videos/creative-studio/seedance25-stage-v1.jpg',
+    video: '/videos/creative-studio/seedance25-stage-v2.mp4',
   },
   {
     title: 'Through the painting',
     model: 'Seedance 2.0',
     vendor: 'ByteDance',
     kind: 'Video',
-    tint: 'from-[#38bdf8]/40 to-[#22c55e]/25',
+    poster: '/videos/creative-studio/seedance20-demo-v1.jpg',
+    video: '/videos/creative-studio/seedance20-demo-v2.mp4',
   },
   {
     title: 'Coffee shop detour',
     model: 'Vidu Q3 Pro',
     vendor: 'Shengshu',
     kind: 'Video',
-    tint: 'from-[#f5c242]/30 to-[#f97316]/25',
+    poster: '/videos/creative-studio/vidu-demo-v1.jpg',
+    video: '/videos/creative-studio/vidu-demo-v2.mp4',
   },
   {
     title: 'Breakfast in the garden',
     model: 'Kling 3.0 Turbo',
     vendor: 'Kuaishou',
     kind: 'Video',
-    tint: 'from-[#fb7185]/35 to-[#8b5cf6]/25',
+    poster: '/videos/creative-studio/kling-official-v1.jpg',
+    video: '/videos/creative-studio/kling-official-v2.mp4',
   },
   {
     title: 'Knights of the forest',
     model: 'Grok Imagine Video',
     vendor: 'xAI',
     kind: 'Video',
-    tint: 'from-[#60a5fa]/35 to-[#a855ff]/25',
+    poster: '/videos/creative-studio/grok-knight-v1.jpg',
+    video: '/videos/creative-studio/grok-knight-v2.mp4',
   },
 ] as const;
 
@@ -299,16 +329,20 @@ export const InstallSteps = [
 ] as const;
 
 export const Testimonials = [
-  ['Alex Chen', 'Full-stack engineer'],
-  ['Li Ming', 'AI product lead'],
-  ['Emily Zhang', 'Technical PM'],
-  ['Wang Yihang', 'Automation developer'],
-  ['Lin Zhou', 'AI architect'],
-  ['Chen Ruoxi', 'Indie developer'],
-  ['Daniel Wang', 'Backend engineer'],
-  ['Jessica Martinez', 'Head of design'],
-  ['Zhao Yu', 'SaaS founder'],
-  ['Robert Taylor', 'Software architect'],
+  ['Alex Chen', 'Full-stack engineer', '/images/testimonials/alex-chen.webp'],
+  ['Li Ming', 'AI product lead', '/images/testimonials/cartoon-dev-a.webp'],
+  ['Emily Zhang', 'Technical PM', '/images/testimonials/asian-dev-b.webp'],
+  [
+    'Wang Yihang',
+    'Automation developer',
+    '/images/testimonials/cartoon-dev-b.webp',
+  ],
+  ['Lin Zhou', 'AI architect', ''],
+  ['Chen Ruoxi', 'Indie developer', ''],
+  ['Daniel Wang', 'Backend engineer', '/images/testimonials/daniel-wang.webp'],
+  ['Jessica Martinez', 'Head of design', ''],
+  ['Zhao Yu', 'SaaS founder', ''],
+  ['Robert Taylor', 'Software architect', ''],
 ] as const;
 
 export const Faq = [
