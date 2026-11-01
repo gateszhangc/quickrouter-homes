@@ -1,9 +1,10 @@
 import { envConfigs } from '@/config';
 
-import { getD1Db } from './d1';
-import { closeMysqlDb, getMysqlDb } from './mysql';
 import { closePostgresDb, getPostgresDb } from './postgres';
-import { getSqliteDb } from './sqlite';
+
+function lazyRequire<T>(id: string): T {
+  return (eval('require') as NodeRequire)(id);
+}
 
 const mysqlCompatProxyCache = new WeakMap<object, any>();
 const sqliteCompatProxyCache = new WeakMap<object, any>();
@@ -193,15 +194,15 @@ function withSqliteCompat<T extends object>(dbInstance: T, provider?: string): T
  */
 export function db(): any {
   if (envConfigs.database_provider === 'd1') {
-    return withSqliteCompat(getD1Db() as any, 'd1');
+    return withSqliteCompat(lazyRequire<typeof import('./d1')>('./d1').getD1Db() as any, 'd1');
   }
 
   if (['sqlite', 'turso'].includes(envConfigs.database_provider)) {
-    return withSqliteCompat(getSqliteDb() as any, envConfigs.database_provider);
+    return withSqliteCompat(lazyRequire<typeof import('./sqlite')>('./sqlite').getSqliteDb() as any, envConfigs.database_provider);
   }
 
   if (envConfigs.database_provider === 'mysql') {
-    return withMysqlCompat(getMysqlDb() as any);
+    return withMysqlCompat(lazyRequire<typeof import('./mysql')>('./mysql').getMysqlDb() as any);
   }
 
   return getPostgresDb() as any;
@@ -215,28 +216,28 @@ export function dbPostgres(): ReturnType<typeof getPostgresDb> {
   return getPostgresDb();
 }
 
-export function dbMysql(): ReturnType<typeof getMysqlDb> {
+export function dbMysql(): ReturnType<(typeof import('./mysql'))['getMysqlDb']> {
   if (envConfigs.database_provider !== 'mysql') {
     throw new Error('Database provider is not MySQL');
   }
 
-  return getMysqlDb();
+  return lazyRequire<typeof import('./mysql')>('./mysql').getMysqlDb();
 }
 
-export function dbSqlite(): ReturnType<typeof getSqliteDb> {
+export function dbSqlite(): ReturnType<(typeof import('./sqlite'))['getSqliteDb']> {
   if (!['sqlite', 'turso'].includes(envConfigs.database_provider)) {
     throw new Error('Database provider is not SQLite');
   }
 
-  return getSqliteDb();
+  return lazyRequire<typeof import('./sqlite')>('./sqlite').getSqliteDb();
 }
 
-export function dbD1(): ReturnType<typeof getD1Db> {
+export function dbD1(): ReturnType<(typeof import('./d1'))['getD1Db']> {
   if (envConfigs.database_provider !== 'd1') {
     throw new Error('Database provider is not D1');
   }
 
-  return getD1Db();
+  return lazyRequire<typeof import('./d1')>('./d1').getD1Db();
 }
 
 export async function closeDb() {
@@ -246,7 +247,7 @@ export async function closeDb() {
   }
 
   if (envConfigs.database_provider === 'mysql') {
-    await closeMysqlDb();
+    await lazyRequire<typeof import('./mysql')>('./mysql').closeMysqlDb();
     return;
   }
 }

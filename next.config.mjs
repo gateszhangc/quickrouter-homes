@@ -6,7 +6,11 @@ const withNextIntl = createNextIntlPlugin({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  serverExternalPackages: ["pg", "pg-cloudflare", "postgres"],
   output: process.env.VERCEL ? undefined : 'standalone',
+  outputFileTracingIncludes: {
+    '/**': ['./node_modules/@libsql/**/*'],
+  },
   reactStrictMode: false,
   pageExtensions: ['ts', 'tsx', 'js', 'jsx'],
   images: {

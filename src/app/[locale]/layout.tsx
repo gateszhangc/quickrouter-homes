@@ -74,6 +74,7 @@ export default async function LocaleLayout({
       suppressHydrationWarning
     >
       <head>
+        <script dangerouslySetInnerHTML={{ __html: "globalThis.__name||(globalThis.__name=(target,value)=>Object.defineProperty(target,\"name\",{value,configurable:true}));" }} />
         <link rel="icon" href={envConfigs.app_favicon} />
         <link rel="alternate icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

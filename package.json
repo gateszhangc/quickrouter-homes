@@ -17,7 +17,7 @@
   "description": "QuickRouter - one OpenAI-compatible API gateway for OpenAI, Claude, Gemini, DeepSeek and Grok.",
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "next build --webpack",
     "build:fast": "NODE_OPTIONS='--max-old-space-size=4096' next build",
     "start": "next start",
     "lint": "eslint .",
@@ -75,7 +75,7 @@
     "moment": "^2.30.1",
     "motion": "^12.23.12",
     "mysql2": "^3.16.0",
-    "next": "16.0.7",
+    "next": "16.3.8",
     "next-intl": "^4.3.4",
     "next-themes": "^0.4.6",
     "nextjs-toploader": "^3.9.17",
@@ -106,7 +106,9 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.5",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@opennextjs/cloudflare": "1.20.11",
+    "wrangler": "^4.150.0"
   },
   "pnpm": {
     "overrides": {
