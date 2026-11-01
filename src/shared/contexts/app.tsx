@@ -42,8 +42,9 @@ export const AppContextProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
   const userRef = useRef<User | null>(null);
 
-  // is check sign (true during SSR and initial render to avoid hydration mismatch when auth is enabled)
-  const [isCheckSign, setIsCheckSign] = useState(!!envConfigs.auth_secret);
+  // Keep SSR and the hydration render identical. The session bootstrap updates
+  // this immediately after mount when auth is available.
+  const [isCheckSign, setIsCheckSign] = useState(true);
 
   // show sign modal
   const [isShowSignModal, setIsShowSignModal] = useState(false);

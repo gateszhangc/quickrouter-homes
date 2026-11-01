@@ -28,6 +28,16 @@ export const DIRECTORY_BADGES_URL =
 const FOREIGN_PRODUCT_PATTERN =
   /mirofish|soul-?cinema|animatephoto|outfit|soulcinema/i;
 
+/**
+ * Directory artwork that currently has no DNS record or rejects hotlinking.
+ * Filtering these before render avoids broken footer images and browser
+ * console errors even when the remote manifest still contains stale entries.
+ */
+const UNREACHABLE_BADGE_HOSTS = new Set([
+  'bestfreeai.tools',
+  'cdn.topaitoolsreview.com',
+]);
+
 export const DIRECTORY_BADGES_REVALIDATE_SECONDS = 300;
 export const DIRECTORY_BADGES_TAG = 'directory-badges';
 export const DIRECTORY_BADGES_MAX_ITEMS = 500;
@@ -42,6 +52,20 @@ const isHttpsUrl = (value: string) => {
   } catch {
     return false;
   }
+};
+
+const isUnreachableBadgeAsset = (href: string, imageSrc: string) => {
+  for (const value of [href, imageSrc]) {
+    if (!value) continue;
+    try {
+      if (UNREACHABLE_BADGE_HOSTS.has(new URL(value).hostname.toLowerCase())) {
+        return true;
+      }
+    } catch {
+      // URL validation is handled separately by the caller.
+    }
+  }
+  return false;
 };
 
 const readBadgeEntries = (input: unknown): unknown[] => {
@@ -85,6 +109,10 @@ export function normalizeDirectoryBadges(input: unknown): DirectoryBadge[] {
     const rel = asText(entry.rel) || 'noopener noreferrer';
 
     if (!label || !title || !isHttpsUrl(href) || seenHrefs.has(href)) {
+      continue;
+    }
+
+    if (isUnreachableBadgeAsset(href, imageSrc)) {
       continue;
     }
 

@@ -10,6 +10,16 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
+  "routes": [
+    {
+      "pattern": "quickrouter.homes",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.quickrouter.homes",
+      "custom_domain": true
+    }
+  ],
   "workers_dev": true,
   "observability": {
     "enabled": true
